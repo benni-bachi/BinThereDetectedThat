@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#154734">
+  <title>Bin There, Detected That | Campus waste operations</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><div><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></div></div><span class="header-label">CAMPUS WASTE OPERATIONS</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">OPERATIONS OVERVIEW</p><h1>A cleaner campus.<br><span>A clearer picture.</span></h1><p class="subtitle">Collection activity and service conditions across campus.</p></div><a class="primary-button" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=AZC0tj-L-kOZoXBujH41mMDhpnz29-JJttbJSNrVO5FUNzFLQU5YS1lFNDdZSktERjdGS1ZQV09TVC4u" target="_blank" rel="noopener noreferrer">＋ New Collection <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></section>
+    <div class="demo-note"><span class="demo-dot" aria-hidden="true"></span><strong>Demo data</strong><span>Sanitized sample records for the class presentation. This view is not connected to the live Microsoft List.</span></div>
+    <section class="filters" aria-label="Filter collections"><div><label for="date-from">From date</label><input type="date" id="date-from"></div><div><label for="date-to">To date</label><input type="date" id="date-to"></div><div><label for="building">Building / location</label><select id="building"><option value="">All locations</option></select></div><div><label for="stream">Waste stream</label><select id="stream"><option value="">All streams</option></select></div><div><label for="bin">Bin</label><select id="bin"><option value="">All bins</option></select></div><button id="reset" class="reset-button" type="button">Reset filters</button></section>
+    <div class="section-caption"><h2>Collection snapshot</h2><p id="result-count" role="status" aria-live="polite">Loading records…</p></div>
+    <div id="error" class="error" role="alert" hidden></div>
+    <section id="metrics" class="metrics" aria-label="Collection metrics"></section>
+    <section class="charts" aria-label="Collection breakdowns"><article class="panel"><div class="panel-heading"><h2>Collections by waste stream</h2><span>RECORDS</span></div><div id="stream-chart" class="bar-chart"></div></article><article class="panel"><div class="panel-heading"><h2>Collections by building</h2><span>RECORDS</span></div><div id="building-chart" class="bar-chart"></div></article><article class="panel fullness-panel"><div class="panel-heading"><div><h2>Fullness distribution</h2><p>Reported capacity before collection</p></div><span>RECORDS</span></div><div id="fullness-chart" class="distribution"></div></article></section>
+    <section class="panel activity"><div class="panel-heading"><div><h2>Recent collection activity</h2><p>Newest first · Select a record to view collection details</p></div><span id="activity-count"></span></div><div class="table-scroll"><table><caption class="sr-only">Filtered collection activity</caption><thead><tr><th scope="col">Date / time</th><th scope="col">Bin / location</th><th scope="col">Waste stream</th><th scope="col">Fullness</th><th scope="col">Service / conditions</th><th scope="col">Details</th></tr></thead><tbody id="activity-body"></tbody></table></div></section>
+    <footer><span>Bin There, Detected That <span class="footer-divider">/</span> Sacramento State</span><span>CSC 131 · Class demonstration</span></footer>
+  </main>
+</body>
+</html>
