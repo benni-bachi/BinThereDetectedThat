@@ -1,0 +1,4 @@
+BinID,BuildingLocation,WasteStream,ContainerTypeSize,FormsURL
+BIN-001,University Union,Landfill,3 Yard Dumpster,PASTE_URL_1
+BIN-002,Library,Recycling,4 Yard Dumpster,PASTE_URL_2
+BIN-003,The WELL,Organics,3 Yard Dumpster,PASTE_URL_3
