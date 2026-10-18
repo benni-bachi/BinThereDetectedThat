@@ -16,6 +16,8 @@ Run `python -B -m unittest discover -s scripts -p test_import_snapshot.py` to ch
 
 Check Power Automate run history for export failures and the repository's Actions tab for validation/deployment failures. If a connection expires, reconnect the existing SharePoint or GitHub connection. Pages must use **GitHub Actions** as its publishing source. Do not manually overwrite records.json with demo data while automatic sync is enabled. The dispatch transport has GitHub's 64 KB payload limit; larger datasets require a different transport before exceeding that limit.
 
+`data/export-exclusions.json` excludes LIST-28 from public export at the owner's request because it is a test submission. It remains in the private List. All other invalid records still fail validation, and exclusion-only snapshots cannot erase the published dataset. Publishing cancels obsolete runs and each job is limited to 10 minutes so a stale run cannot indefinitely block later updates.
+
 ## Local preview
 
 Run `python -m http.server 8000` from the repository root, then open http://localhost:8000. Run `git pull --ff-only` before local edits to receive automatically published records.

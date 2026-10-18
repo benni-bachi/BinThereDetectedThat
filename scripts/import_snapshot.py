@@ -12,6 +12,7 @@ with (Path(__file__).resolve().parents[1] / 'data/bin-links.csv').open(encoding=
     BINS = {r['BinID']: (r['BuildingLocation'], r['WasteStream'], r['ContainerTypeSize']) for r in csv.DictReader(registry)}
 EXCEPTION = 'Service exception reported; details retained internally.'
 MAINTENANCE = 'Maintenance issue reported; details retained internally.'
+EXCLUSIONS = set(json.loads((Path(__file__).resolve().parents[1] / 'data/export-exclusions.json').read_text()))
 
 def validate(records):
     if not isinstance(records, list) or not records:
@@ -43,11 +44,18 @@ def validate(records):
             raise ValueError(f'Record {index}: inconsistent maintenance details')
     return sorted(records, key=lambda r: int(r['responseId'].split('-')[1]))
 
+def prepare_snapshot(records):
+    # Explicit user-confirmed private test entries only. All other invalid rows fail.
+    if isinstance(records, list):
+        records = [r for r in records if not isinstance(r, dict) or r.get('responseId') not in EXCLUSIONS]
+    return validate(records)
+
+
 def main():
     event = json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
     if event.get('action') != 'collection-snapshot':
         raise ValueError('Unexpected dispatch event')
-    records = validate(event.get('client_payload', {}).get('records'))
+    records = prepare_snapshot(event.get('client_payload', {}).get('records'))
     # Do not permit accidental partial reads to remove existing exported records.
     destination = Path('data/records.json')
     old = json.loads(destination.read_text(encoding='utf-8-sig'))

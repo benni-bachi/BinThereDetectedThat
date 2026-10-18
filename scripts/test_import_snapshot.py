@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from import_snapshot import FIELDS, main, validate
+from import_snapshot import FIELDS, main, prepare_snapshot, validate
 
 
 def record(number=1):
@@ -21,6 +21,14 @@ def record(number=1):
 
 
 class SnapshotTests(unittest.TestCase):
+    def test_only_user_confirmed_test_entry_is_excluded(self):
+        private_test = dict(record(28), binId='004', wasteStream='N/A')
+        self.assertEqual(prepare_snapshot([record(1), private_test]), [record(1)])
+        with self.assertRaises(ValueError):
+            prepare_snapshot([dict(private_test, responseId='LIST-29')])
+        with self.assertRaises(ValueError):
+            prepare_snapshot([private_test])
+
     def test_valid_snapshot_sorted(self):
         self.assertEqual(validate([record(2), record(1)]), [record(1), record(2)])
 
