@@ -1,0 +1,6 @@
+# Regenerated workbook labels are distributed in the QR pack and extracted by CI.
+/generated/qr/*.png
+!/generated/qr/BIN-001.png
+!/generated/qr/BIN-002.png
+!/generated/qr/BIN-003.png
+__pycache__/

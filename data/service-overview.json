@@ -1,0 +1,5561 @@
+{
+  "sourceFile": "Sacramento State_ Service Overview.xlsx",
+  "sourceSheet": "UPDATED",
+  "sourceSha256": "86ade00da79ea4a1917cb1260af9924c745dbebe424cfe1cadee5d9ff78e6556",
+  "description": "Planned service levels; not historical collection events.",
+  "services": [
+    {
+      "sourceRow": 6,
+      "buildingLocation": "ALPINE",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 6,
+      "buildingLocation": "ALPINE",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 7,
+      "buildingLocation": "AMADOR",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 7,
+      "buildingLocation": "AMADOR",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 7,
+      "buildingLocation": "AMADOR",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 8,
+      "buildingLocation": "ARBORETUM *",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 9,
+      "buildingLocation": "ART SCULPTURE LAB",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 9,
+      "buildingLocation": "ART SCULPTURE LAB",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [],
+      "issues": [
+        "Service days do not match weekly frequency"
+      ]
+    },
+    {
+      "sourceRow": 9,
+      "buildingLocation": "ART SCULPTURE LAB",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [],
+      "issues": [
+        "Service days do not match weekly frequency"
+      ]
+    },
+    {
+      "sourceRow": 10,
+      "buildingLocation": "ATHLETIC CENTER (FORM. STUDENT HEALTH)",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 10,
+      "buildingLocation": "ATHLETIC CENTER (FORM. STUDENT HEALTH)",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 10,
+      "buildingLocation": "ATHLETIC CENTER (FORM. STUDENT HEALTH)",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 11,
+      "buildingLocation": "BRIGHTON",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 11,
+      "buildingLocation": "BRIGHTON",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 11,
+      "buildingLocation": "BRIGHTON",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 12,
+      "buildingLocation": "CAPISTRANO",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 12,
+      "buildingLocation": "CAPISTRANO",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 12,
+      "buildingLocation": "CAPISTRANO",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 13,
+      "buildingLocation": "FACILITIES MANAGEMENT",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 13,
+      "buildingLocation": "FACILITIES MANAGEMENT",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 14,
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 14,
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "MON",
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 14,
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 15,
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Landfill",
+      "quantity": 4,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 15,
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 15,
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 16,
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 16,
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 16,
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 17,
+      "buildingLocation": "MENDOCINO",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 17,
+      "buildingLocation": "MENDOCINO",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 17,
+      "buildingLocation": "MENDOCINO",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 18,
+      "buildingLocation": "PUBLIC SAFETY (INSIDE FENCE)",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 18,
+      "buildingLocation": "PUBLIC SAFETY (INSIDE FENCE)",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "1 Yard Dumpster",
+      "sourceSize": "1YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 18,
+      "buildingLocation": "PUBLIC SAFETY (INSIDE FENCE)",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 19,
+      "buildingLocation": "RECEIVING/MAIL/REPROGRAPHICS",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 19,
+      "buildingLocation": "RECEIVING/MAIL/REPROGRAPHICS",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 19,
+      "buildingLocation": "RECEIVING/MAIL/REPROGRAPHICS",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 20,
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 20,
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 20,
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 21,
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 21,
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 21,
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 22,
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 22,
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 22,
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 23,
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 23,
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 23,
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 24,
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Landfill",
+      "quantity": 3,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 24,
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 24,
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 25,
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 25,
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 25,
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 26,
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 26,
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "quantity": 21,
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Confirm each container size",
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 26,
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "quantity": 20,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 27,
+      "buildingLocation": "AQUATIC CENTER",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "MON",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 27,
+      "buildingLocation": "AQUATIC CENTER",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 27,
+      "buildingLocation": "AQUATIC CENTER",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 28,
+      "buildingLocation": "ARBORETUM TEMP",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 29,
+      "buildingLocation": "ASSOC STUDENT/CHIL",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 29,
+      "buildingLocation": "ASSOC STUDENT/CHIL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 30,
+      "buildingLocation": "BAC YARD",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "96 Gallon Container",
+      "sourceSize": "96GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 30,
+      "buildingLocation": "BAC YARD",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 31,
+      "buildingLocation": "BASKETBALL FACILIT",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 31,
+      "buildingLocation": "BASKETBALL FACILIT",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "MON"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 31,
+      "buildingLocation": "BASKETBALL FACILIT",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 32,
+      "buildingLocation": "BOOKSTORE",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 32,
+      "buildingLocation": "BOOKSTORE",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 33,
+      "buildingLocation": "BOOKSTORE RO",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "15 Yard Dumpster",
+      "sourceSize": "15YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 34,
+      "buildingLocation": "BSE ENG CENTRAL",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "40 Yard Dumpster",
+      "sourceSize": "40YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 35,
+      "buildingLocation": "DINING COMMONS",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 35,
+      "buildingLocation": "DINING COMMONS",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 36,
+      "buildingLocation": "DINING COMMONS RO",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "20 Yard Dumpster",
+      "sourceSize": "20YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 37,
+      "buildingLocation": "DOWNTOWN CAMPUS",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "2 Yard Dumpster",
+      "sourceSize": "2YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 37,
+      "buildingLocation": "DOWNTOWN CAMPUS",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 37,
+      "buildingLocation": "DOWNTOWN CAMPUS",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": [
+        "Service days do not match weekly frequency"
+      ]
+    },
+    {
+      "sourceRow": 38,
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "quantity": 10,
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 38,
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "quantity": 10,
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 38,
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "quantity": 10,
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 39,
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Landfill",
+      "quantity": 5,
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "weeklyFrequency": 5,
+      "sourceFrequency": "5",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 39,
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "quantity": 12,
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "weeklyFrequency": 5,
+      "sourceFrequency": "5",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 40,
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Landfill",
+      "quantity": 5,
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 40,
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Organics",
+      "quantity": 5,
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 41,
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 6,
+      "sourceFrequency": "6",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI",
+        "SAT"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 41,
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 41,
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 42,
+      "buildingLocation": "HARPER ALUMNI CTR",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 42,
+      "buildingLocation": "HARPER ALUMNI CTR",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 42,
+      "buildingLocation": "HARPER ALUMNI CTR",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 43,
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Landfill",
+      "quantity": 3,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 43,
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Recycling",
+      "quantity": 4,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 43,
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "quantity": 7,
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Confirm each container size",
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 44,
+      "buildingLocation": "HORNET STADIUM TM",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 44,
+      "buildingLocation": "HORNET STADIUM TM",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 44,
+      "buildingLocation": "HORNET STADIUM TM",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 45,
+      "buildingLocation": "LIBRARY - BOOK REC",
+      "wasteStream": "Organics",
+      "quantity": 2,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 46,
+      "buildingLocation": "LIBRARY CP",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "25 Yard Dumpster",
+      "sourceSize": "25YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 49,
+      "buildingLocation": "MODOC HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 49,
+      "buildingLocation": "MODOC HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 50,
+      "buildingLocation": "NAPA HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 50,
+      "buildingLocation": "NAPA HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 51,
+      "buildingLocation": "NAPA HALL RO",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "15 Yard Dumpster",
+      "sourceSize": "15YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 52,
+      "buildingLocation": "PERM RO",
+      "wasteStream": "Landfill",
+      "quantity": 3,
+      "containerTypeSize": null,
+      "sourceSize": "6YD / 25YD / 30YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "1 (25)",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": [
+        "Confirm each container size",
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 52,
+      "buildingLocation": "PERM RO",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "30 Yard Dumpster",
+      "sourceSize": "30YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 53,
+      "buildingLocation": "RIVERFRONT CR FL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 53,
+      "buildingLocation": "RIVERFRONT CR FL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 54,
+      "buildingLocation": "RIVERFRONT CR RO",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "10 Yard Dumpster",
+      "sourceSize": "10YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "MON"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 55,
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 55,
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 55,
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "quantity": 10,
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 56,
+      "buildingLocation": "THE WELL FL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 56,
+      "buildingLocation": "THE WELL FL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 57,
+      "buildingLocation": "THE WELL RO",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "15 Yard Dumpster",
+      "sourceSize": "15YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 58,
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "10 Yard Dumpster",
+      "sourceSize": "10YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "MON"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 59,
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 59,
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Organics",
+      "quantity": 2,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 60,
+      "buildingLocation": "UNIVERSITY UNION",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 60,
+      "buildingLocation": "UNIVERSITY UNION",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "2 Yard Dumpster",
+      "sourceSize": "2YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 61,
+      "buildingLocation": "UNIVERSITY UNION",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "30 Yard Dumpster",
+      "sourceSize": "30YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 63,
+      "buildingLocation": "23RD AVE WAREHOUSE",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 63,
+      "buildingLocation": "23RD AVE WAREHOUSE",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 63,
+      "buildingLocation": "23RD AVE WAREHOUSE",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 64,
+      "buildingLocation": "NIMBUS FLATS",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "40 Yard Dumpster",
+      "sourceSize": "40YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 68,
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 68,
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 68,
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Organics",
+      "quantity": 2,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 69,
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Landfill",
+      "quantity": 3,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 69,
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 70,
+      "buildingLocation": "DESMOND HALL",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 70,
+      "buildingLocation": "DESMOND HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 70,
+      "buildingLocation": "DESMOND HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 71,
+      "buildingLocation": "DRAPER HALL",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 71,
+      "buildingLocation": "DRAPER HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "MON",
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 71,
+      "buildingLocation": "DRAPER HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 72,
+      "buildingLocation": "KLAMATH HALL",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 72,
+      "buildingLocation": "KLAMATH HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "MON",
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 72,
+      "buildingLocation": "KLAMATH HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 73,
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Landfill",
+      "quantity": 5,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 73,
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 73,
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Organics",
+      "quantity": 2,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 74,
+      "buildingLocation": "HOUSING-RIVERVIEW",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "20 Yard Dumpster",
+      "sourceSize": "20YD",
+      "weeklyFrequency": null,
+      "sourceFrequency": "-",
+      "serviceDays": [],
+      "issues": [
+        "Weekly frequency unspecified or qualified"
+      ]
+    },
+    {
+      "sourceRow": 75,
+      "buildingLocation": "HOUSINGRIVERVIEW E",
+      "wasteStream": "Landfill",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 75,
+      "buildingLocation": "HOUSINGRIVERVIEW E",
+      "wasteStream": "Recycling",
+      "quantity": 2,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 76,
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Landfill",
+      "quantity": 3,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 76,
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 3,
+      "sourceFrequency": "3",
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 76,
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 77,
+      "buildingLocation": "SIERRA HALL",
+      "wasteStream": "Landfill",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 4,
+      "sourceFrequency": "4",
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 77,
+      "buildingLocation": "SIERRA HALL",
+      "wasteStream": "Recycling",
+      "quantity": 1,
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "weeklyFrequency": 2,
+      "sourceFrequency": "2",
+      "serviceDays": [
+        "MON",
+        "WED"
+      ],
+      "issues": []
+    },
+    {
+      "sourceRow": 77,
+      "buildingLocation": "SIERRA HALL",
+      "wasteStream": "Organics",
+      "quantity": 1,
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "weeklyFrequency": 1,
+      "sourceFrequency": "1",
+      "serviceDays": [
+        "TUE"
+      ],
+      "issues": []
+    }
+  ],
+  "bins": [
+    {
+      "sourceKey": "c6171c2c0059d649-1",
+      "binId": "BIN-004",
+      "buildingLocation": "ALPINE",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 6,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c6171c2c0059d649-2",
+      "binId": "BIN-005",
+      "buildingLocation": "ALPINE",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 6,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "60af8ecae8cc7f19-1",
+      "binId": "BIN-006",
+      "buildingLocation": "ALPINE",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 6,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4c64183d5a7ae86a-1",
+      "binId": "BIN-007",
+      "buildingLocation": "AMADOR",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 7,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0bb8b917a5edbd7a-1",
+      "binId": "BIN-008",
+      "buildingLocation": "AMADOR",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 7,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "37f8e3a18cdcab29-1",
+      "binId": "BIN-009",
+      "buildingLocation": "AMADOR",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 7,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ff7bbf801b2c40f2-1",
+      "binId": "BIN-010",
+      "buildingLocation": "ARBORETUM *",
+      "wasteStream": "Organics",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 8,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fde2eed6d1e8b2cc-1",
+      "binId": "BIN-011",
+      "buildingLocation": "ART SCULPTURE LAB",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 9,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "730f0e3823e038e7-1",
+      "binId": "BIN-012",
+      "buildingLocation": "ART SCULPTURE LAB",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 9,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "729dc210ec5764b3-1",
+      "binId": "BIN-013",
+      "buildingLocation": "ART SCULPTURE LAB",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 9,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "52352d519a22fd77-1",
+      "binId": "BIN-014",
+      "buildingLocation": "ATHLETIC CENTER (FORM. STUDENT HEALTH)",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 10,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4be2b2724376ec56-1",
+      "binId": "BIN-015",
+      "buildingLocation": "ATHLETIC CENTER (FORM. STUDENT HEALTH)",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 10,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "d36078f652c2c40e-1",
+      "binId": "BIN-016",
+      "buildingLocation": "ATHLETIC CENTER (FORM. STUDENT HEALTH)",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 10,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "adb8902921c9fc0e-1",
+      "binId": "BIN-017",
+      "buildingLocation": "BRIGHTON",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 11,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e94b95440d50144e-1",
+      "binId": "BIN-018",
+      "buildingLocation": "BRIGHTON",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 11,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b4316f95359d965e-1",
+      "binId": "BIN-019",
+      "buildingLocation": "BRIGHTON",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 11,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "bab2a62115eedabf-1",
+      "binId": "BIN-020",
+      "buildingLocation": "CAPISTRANO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 12,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ac4d33da5050cb4a-1",
+      "binId": "BIN-021",
+      "buildingLocation": "CAPISTRANO",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 12,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "59bf35277fb1d15b-1",
+      "binId": "BIN-022",
+      "buildingLocation": "CAPISTRANO",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 12,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9402796239c7c74e-1",
+      "binId": "BIN-023",
+      "buildingLocation": "FACILITIES MANAGEMENT",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 13,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9402796239c7c74e-2",
+      "binId": "BIN-024",
+      "buildingLocation": "FACILITIES MANAGEMENT",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 13,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "62d9bb0158c68b16-1",
+      "binId": "BIN-025",
+      "buildingLocation": "FACILITIES MANAGEMENT",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 13,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2eed9cce3fed385-1",
+      "binId": "BIN-026",
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 14,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2eed9cce3fed385-2",
+      "binId": "BIN-027",
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 14,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "8651046aca26f86b-1",
+      "binId": "BIN-028",
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 14,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2266a76ab617f64e-1",
+      "binId": "BIN-029",
+      "buildingLocation": "BROAD FIELD HOUSE (ATHLETICS)",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 14,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2e70b854b6dd3931-1",
+      "binId": "BIN-030",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2e70b854b6dd3931-2",
+      "binId": "BIN-031",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2e70b854b6dd3931-3",
+      "binId": "BIN-032",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 3,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2e70b854b6dd3931-4",
+      "binId": "BIN-033",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 4,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "1078791e86af5968-1",
+      "binId": "BIN-034",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "1078791e86af5968-2",
+      "binId": "BIN-035",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "95dd05edbc35eb80-1",
+      "binId": "BIN-036",
+      "buildingLocation": "KADEMA/LASSEN",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 15,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "388fd4a7bc1b0b06-1",
+      "binId": "BIN-037",
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 16,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "388fd4a7bc1b0b06-2",
+      "binId": "BIN-038",
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 16,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "04701a9892166a92-1",
+      "binId": "BIN-039",
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 16,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "04701a9892166a92-2",
+      "binId": "BIN-040",
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 16,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b9b1da71f8cb939f-1",
+      "binId": "BIN-041",
+      "buildingLocation": "MARIPOSA",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 16,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c0f0fd0fc1ca00cb-1",
+      "binId": "BIN-042",
+      "buildingLocation": "MENDOCINO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "containerNumber": 1,
+      "sourceRow": 17,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b7a04f3b22d838ac-1",
+      "binId": "BIN-043",
+      "buildingLocation": "MENDOCINO",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 17,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "42afd7e6e2aa0417-1",
+      "binId": "BIN-044",
+      "buildingLocation": "MENDOCINO",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 17,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f25b5d42db9bd959-1",
+      "binId": "BIN-045",
+      "buildingLocation": "PUBLIC SAFETY (INSIDE FENCE)",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 18,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "1e75398c7fa05f79-1",
+      "binId": "BIN-046",
+      "buildingLocation": "PUBLIC SAFETY (INSIDE FENCE)",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "1 Yard Dumpster",
+      "sourceSize": "1YD",
+      "containerNumber": 1,
+      "sourceRow": 18,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0aaa583e5ec54b62-1",
+      "binId": "BIN-047",
+      "buildingLocation": "PUBLIC SAFETY (INSIDE FENCE)",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 18,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "d5fd66624e98bf8f-1",
+      "binId": "BIN-048",
+      "buildingLocation": "RECEIVING/MAIL/REPROGRAPHICS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 19,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e994fcc4175db85d-1",
+      "binId": "BIN-049",
+      "buildingLocation": "RECEIVING/MAIL/REPROGRAPHICS",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 19,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "5e9843c9940fa4e9-1",
+      "binId": "BIN-050",
+      "buildingLocation": "RECEIVING/MAIL/REPROGRAPHICS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 19,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "216dfa4496766433-1",
+      "binId": "BIN-051",
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 20,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "216dfa4496766433-2",
+      "binId": "BIN-052",
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 20,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c615c0d27ab3148b-1",
+      "binId": "BIN-053",
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 20,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "7c22d3e751121387-1",
+      "binId": "BIN-054",
+      "buildingLocation": "RIVERSIDE ENGINEERING",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 20,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2b4b98f69cb123fa-1",
+      "binId": "BIN-055",
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 21,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2b4b98f69cb123fa-2",
+      "binId": "BIN-056",
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 21,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "165facb595a79944-1",
+      "binId": "BIN-057",
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 21,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "7471286d5d43f5a7-1",
+      "binId": "BIN-058",
+      "buildingLocation": "SACRAMENTO",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 21,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b1d168d7aeea2fb0-1",
+      "binId": "BIN-059",
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 22,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b1d168d7aeea2fb0-2",
+      "binId": "BIN-060",
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 22,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9333bd08b6fd743f-1",
+      "binId": "BIN-061",
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 22,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "d5f75b6b87ac0995-1",
+      "binId": "BIN-062",
+      "buildingLocation": "SHASTA HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 22,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ee09d05252db564d-1",
+      "binId": "BIN-063",
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 23,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ee09d05252db564d-2",
+      "binId": "BIN-064",
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 23,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9305049baacf7c10-1",
+      "binId": "BIN-065",
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "containerNumber": 1,
+      "sourceRow": 23,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3438cf1a0415f1a7-1",
+      "binId": "BIN-066",
+      "buildingLocation": "SEQUOIA",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 23,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2fa80b2f906a0ab9-1",
+      "binId": "BIN-067",
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 24,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2fa80b2f906a0ab9-2",
+      "binId": "BIN-068",
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 24,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "2fa80b2f906a0ab9-3",
+      "binId": "BIN-069",
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 3,
+      "sourceRow": 24,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3f47c5c682ad1afe-1",
+      "binId": "BIN-070",
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 24,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "804dc92d0e3a7c64-1",
+      "binId": "BIN-071",
+      "buildingLocation": "TAHOE HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 24,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "166d57f8ecbbbd15-1",
+      "binId": "BIN-072",
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 25,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "33030446b69b4dd2-1",
+      "binId": "BIN-073",
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 25,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "33030446b69b4dd2-2",
+      "binId": "BIN-074",
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 25,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "7f2fb67eb62ce1ac-1",
+      "binId": "BIN-075",
+      "buildingLocation": "TSCHANNEN SCIENCE COMPLEX",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 25,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a1acff41660aa618-1",
+      "binId": "BIN-076",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-1",
+      "binId": "BIN-077",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 1,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-2",
+      "binId": "BIN-078",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 2,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-3",
+      "binId": "BIN-079",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 3,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-4",
+      "binId": "BIN-080",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 4,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-5",
+      "binId": "BIN-081",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 5,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-6",
+      "binId": "BIN-082",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 6,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-7",
+      "binId": "BIN-083",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 7,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-8",
+      "binId": "BIN-084",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 8,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-9",
+      "binId": "BIN-085",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 9,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-10",
+      "binId": "BIN-086",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 10,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-11",
+      "binId": "BIN-087",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 11,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-12",
+      "binId": "BIN-088",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 12,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-13",
+      "binId": "BIN-089",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 13,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-14",
+      "binId": "BIN-090",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 14,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-15",
+      "binId": "BIN-091",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 15,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-16",
+      "binId": "BIN-092",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 16,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-17",
+      "binId": "BIN-093",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 17,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-18",
+      "binId": "BIN-094",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 18,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-19",
+      "binId": "BIN-095",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 19,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-20",
+      "binId": "BIN-096",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 20,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "e3f4e585a6fbb5fb-21",
+      "binId": "BIN-097",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": null,
+      "sourceSize": "64GAL / 6YD",
+      "containerNumber": 21,
+      "sourceRow": 26,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-1",
+      "binId": "BIN-098",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-2",
+      "binId": "BIN-099",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 2,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-3",
+      "binId": "BIN-100",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 3,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-4",
+      "binId": "BIN-101",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 4,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-5",
+      "binId": "BIN-102",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 5,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-6",
+      "binId": "BIN-103",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 6,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-7",
+      "binId": "BIN-104",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 7,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-8",
+      "binId": "BIN-105",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 8,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-9",
+      "binId": "BIN-106",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 9,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-10",
+      "binId": "BIN-107",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 10,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-11",
+      "binId": "BIN-108",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 11,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-12",
+      "binId": "BIN-109",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 12,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-13",
+      "binId": "BIN-110",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 13,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-14",
+      "binId": "BIN-111",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 14,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-15",
+      "binId": "BIN-112",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 15,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-16",
+      "binId": "BIN-113",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 16,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-17",
+      "binId": "BIN-114",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 17,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-18",
+      "binId": "BIN-115",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 18,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-19",
+      "binId": "BIN-116",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 19,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0ee61b0c9d76f76e-20",
+      "binId": "BIN-117",
+      "buildingLocation": "ALUMNI CENTER TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 20,
+      "sourceRow": 26,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "98cc65d52cb520c4-1",
+      "binId": "BIN-118",
+      "buildingLocation": "AQUATIC CENTER",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 27,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "410f622bbac32944-1",
+      "binId": "BIN-119",
+      "buildingLocation": "AQUATIC CENTER",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 27,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "0769159073c74747-1",
+      "binId": "BIN-120",
+      "buildingLocation": "AQUATIC CENTER",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 27,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "215a0f8dada36e62-1",
+      "binId": "BIN-121",
+      "buildingLocation": "ARBORETUM TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 28,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "856171b8da771dd4-1",
+      "binId": "BIN-122",
+      "buildingLocation": "ASSOC STUDENT/CHIL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 29,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "193cce96699cc500-1",
+      "binId": "BIN-123",
+      "buildingLocation": "ASSOC STUDENT/CHIL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 29,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "025810c3a093f9cb-1",
+      "binId": "BIN-124",
+      "buildingLocation": "BAC YARD",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "96 Gallon Container",
+      "sourceSize": "96GAL",
+      "containerNumber": 1,
+      "sourceRow": 30,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "91e5a7c979da7020-1",
+      "binId": "BIN-125",
+      "buildingLocation": "BAC YARD",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 30,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "1775e4fe084ba74d-1",
+      "binId": "BIN-126",
+      "buildingLocation": "BASKETBALL FACILIT",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 31,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "16c20ec64ffa4c1d-1",
+      "binId": "BIN-127",
+      "buildingLocation": "BASKETBALL FACILIT",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 31,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "26fc818908f2946f-1",
+      "binId": "BIN-128",
+      "buildingLocation": "BASKETBALL FACILIT",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 31,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "261ce1d8a81f8b97-1",
+      "binId": "BIN-129",
+      "buildingLocation": "BOOKSTORE",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 32,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "160afb6887db85be-1",
+      "binId": "BIN-130",
+      "buildingLocation": "BOOKSTORE",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 32,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "78fea7507bdd6a6c-1",
+      "binId": "BIN-131",
+      "buildingLocation": "BOOKSTORE RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "15 Yard Dumpster",
+      "sourceSize": "15YD",
+      "containerNumber": 1,
+      "sourceRow": 33,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3ac7936860b96a3c-1",
+      "binId": "BIN-132",
+      "buildingLocation": "BSE ENG CENTRAL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "40 Yard Dumpster",
+      "sourceSize": "40YD",
+      "containerNumber": 1,
+      "sourceRow": 34,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3ac7936860b96a3c-2",
+      "binId": "BIN-133",
+      "buildingLocation": "BSE ENG CENTRAL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "40 Yard Dumpster",
+      "sourceSize": "40YD",
+      "containerNumber": 2,
+      "sourceRow": 34,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b3191b3aabe060f1-1",
+      "binId": "BIN-134",
+      "buildingLocation": "DINING COMMONS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 35,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f50cddd322b98161-1",
+      "binId": "BIN-135",
+      "buildingLocation": "DINING COMMONS",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "containerNumber": 1,
+      "sourceRow": 35,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f50cddd322b98161-2",
+      "binId": "BIN-136",
+      "buildingLocation": "DINING COMMONS",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "8 Yard Dumpster",
+      "sourceSize": "8YD",
+      "containerNumber": 2,
+      "sourceRow": 35,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b918ac9678ad5a02-1",
+      "binId": "BIN-137",
+      "buildingLocation": "DINING COMMONS RO",
+      "wasteStream": "Organics",
+      "containerTypeSize": "20 Yard Dumpster",
+      "sourceSize": "20YD",
+      "containerNumber": 1,
+      "sourceRow": 36,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c3ff5776f84ae6a7-1",
+      "binId": "BIN-138",
+      "buildingLocation": "DOWNTOWN CAMPUS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "2 Yard Dumpster",
+      "sourceSize": "2YD",
+      "containerNumber": 1,
+      "sourceRow": 37,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ea60e57e67261958-1",
+      "binId": "BIN-139",
+      "buildingLocation": "DOWNTOWN CAMPUS",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 1,
+      "sourceRow": 37,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "51cfd16851078bb2-1",
+      "binId": "BIN-140",
+      "buildingLocation": "DOWNTOWN CAMPUS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 37,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-1",
+      "binId": "BIN-141",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 1,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-2",
+      "binId": "BIN-142",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 2,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-3",
+      "binId": "BIN-143",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 3,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-4",
+      "binId": "BIN-144",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 4,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-5",
+      "binId": "BIN-145",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 5,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-6",
+      "binId": "BIN-146",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 6,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-7",
+      "binId": "BIN-147",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 7,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-8",
+      "binId": "BIN-148",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 8,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-9",
+      "binId": "BIN-149",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 9,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "45e0a27dc55274b4-10",
+      "binId": "BIN-150",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 10,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-1",
+      "binId": "BIN-151",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 1,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-2",
+      "binId": "BIN-152",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 2,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-3",
+      "binId": "BIN-153",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 3,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-4",
+      "binId": "BIN-154",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 4,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-5",
+      "binId": "BIN-155",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 5,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-6",
+      "binId": "BIN-156",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 6,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-7",
+      "binId": "BIN-157",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 7,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-8",
+      "binId": "BIN-158",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 8,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-9",
+      "binId": "BIN-159",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 9,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c690ef8938233dae-10",
+      "binId": "BIN-160",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 10,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-1",
+      "binId": "BIN-161",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 1,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-2",
+      "binId": "BIN-162",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 2,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-3",
+      "binId": "BIN-163",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 3,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-4",
+      "binId": "BIN-164",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 4,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-5",
+      "binId": "BIN-165",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 5,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-6",
+      "binId": "BIN-166",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 6,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-7",
+      "binId": "BIN-167",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 7,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-8",
+      "binId": "BIN-168",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 8,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-9",
+      "binId": "BIN-169",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 9,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fab8c7402e81b716-10",
+      "binId": "BIN-170",
+      "buildingLocation": "FACILITY MGT TEMP",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 10,
+      "sourceRow": 38,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "63f111fb4ec964dd-1",
+      "binId": "BIN-171",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 1,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "63f111fb4ec964dd-2",
+      "binId": "BIN-172",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 2,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "63f111fb4ec964dd-3",
+      "binId": "BIN-173",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 3,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "63f111fb4ec964dd-4",
+      "binId": "BIN-174",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 4,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "63f111fb4ec964dd-5",
+      "binId": "BIN-175",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 5,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-1",
+      "binId": "BIN-176",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 1,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-2",
+      "binId": "BIN-177",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 2,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-3",
+      "binId": "BIN-178",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 3,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-4",
+      "binId": "BIN-179",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 4,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-5",
+      "binId": "BIN-180",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 5,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-6",
+      "binId": "BIN-181",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 6,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-7",
+      "binId": "BIN-182",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 7,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-8",
+      "binId": "BIN-183",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 8,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-9",
+      "binId": "BIN-184",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 9,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-10",
+      "binId": "BIN-185",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 10,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-11",
+      "binId": "BIN-186",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 11,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b2da7ea194e9eb29-12",
+      "binId": "BIN-187",
+      "buildingLocation": "FM TRAILERS",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 12,
+      "sourceRow": 39,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "92eb9809a7cdab51-1",
+      "binId": "BIN-188",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 1,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "92eb9809a7cdab51-2",
+      "binId": "BIN-189",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 2,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "92eb9809a7cdab51-3",
+      "binId": "BIN-190",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 3,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "92eb9809a7cdab51-4",
+      "binId": "BIN-191",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 4,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "92eb9809a7cdab51-5",
+      "binId": "BIN-192",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 5,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f3271485ef985b89-1",
+      "binId": "BIN-193",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 1,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f3271485ef985b89-2",
+      "binId": "BIN-194",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 2,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f3271485ef985b89-3",
+      "binId": "BIN-195",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 3,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f3271485ef985b89-4",
+      "binId": "BIN-196",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 4,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f3271485ef985b89-5",
+      "binId": "BIN-197",
+      "buildingLocation": "FM TRAILERS/FTBALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "5 Yard Dumpster",
+      "sourceSize": "5YD",
+      "containerNumber": 5,
+      "sourceRow": 40,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "bb69eae1dd3bc976-1",
+      "binId": "BIN-198",
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 41,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "bb69eae1dd3bc976-2",
+      "binId": "BIN-199",
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 41,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "90638cf04ea7dd81-1",
+      "binId": "BIN-200",
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 41,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "90638cf04ea7dd81-2",
+      "binId": "BIN-201",
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 41,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "865ee6303c7f51f0-1",
+      "binId": "BIN-202",
+      "buildingLocation": "FOLSOM HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 41,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "8dd8babd8f3900bf-1",
+      "binId": "BIN-203",
+      "buildingLocation": "HARPER ALUMNI CTR",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 42,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "b9ec2eb200d076a6-1",
+      "binId": "BIN-204",
+      "buildingLocation": "HARPER ALUMNI CTR",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 42,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6d6f13b658bf1708-1",
+      "binId": "BIN-205",
+      "buildingLocation": "HARPER ALUMNI CTR",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 42,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "076d5843691d576a-1",
+      "binId": "BIN-206",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "076d5843691d576a-2",
+      "binId": "BIN-207",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "076d5843691d576a-3",
+      "binId": "BIN-208",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 3,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "dcf0241363048658-1",
+      "binId": "BIN-209",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "dcf0241363048658-2",
+      "binId": "BIN-210",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "dcf0241363048658-3",
+      "binId": "BIN-211",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 3,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "dcf0241363048658-4",
+      "binId": "BIN-212",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 4,
+      "sourceRow": 43,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-1",
+      "binId": "BIN-213",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 1,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-2",
+      "binId": "BIN-214",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 2,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-3",
+      "binId": "BIN-215",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 3,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-4",
+      "binId": "BIN-216",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 4,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-5",
+      "binId": "BIN-217",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 5,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-6",
+      "binId": "BIN-218",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 6,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "3a0beb0b61284ec2-7",
+      "binId": "BIN-219",
+      "buildingLocation": "HORNET NEST FEST",
+      "wasteStream": "Organics",
+      "containerTypeSize": null,
+      "sourceSize": "5\u00d74YD / 2\u00d73YD",
+      "containerNumber": 7,
+      "sourceRow": 43,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "84226c8034371fa7-1",
+      "binId": "BIN-220",
+      "buildingLocation": "HORNET STADIUM TM",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 44,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9ee1edd0dbd4ad4c-1",
+      "binId": "BIN-221",
+      "buildingLocation": "HORNET STADIUM TM",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 44,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f6930f0619139019-1",
+      "binId": "BIN-222",
+      "buildingLocation": "HORNET STADIUM TM",
+      "wasteStream": "Organics",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 44,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3f0108aee7cfe2ad-1",
+      "binId": "BIN-223",
+      "buildingLocation": "LIBRARY - BOOK REC",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 45,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3f0108aee7cfe2ad-2",
+      "binId": "BIN-224",
+      "buildingLocation": "LIBRARY - BOOK REC",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 2,
+      "sourceRow": 45,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "fa4876f5d385b4b6-1",
+      "binId": "BIN-225",
+      "buildingLocation": "LIBRARY CP",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "25 Yard Dumpster",
+      "sourceSize": "25YD",
+      "containerNumber": 1,
+      "sourceRow": 46,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a6830f40a4f52fd2-1",
+      "binId": "BIN-226",
+      "buildingLocation": "MODOC HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 49,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ea5db2ad7b05e514-1",
+      "binId": "BIN-227",
+      "buildingLocation": "MODOC HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 49,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3bc34fd941bd236d-1",
+      "binId": "BIN-228",
+      "buildingLocation": "NAPA HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 50,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c71b51fdb187ef3e-1",
+      "binId": "BIN-229",
+      "buildingLocation": "NAPA HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 50,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f24797c760008ba4-1",
+      "binId": "BIN-230",
+      "buildingLocation": "NAPA HALL RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "15 Yard Dumpster",
+      "sourceSize": "15YD",
+      "containerNumber": 1,
+      "sourceRow": 51,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "7606e1636d57f4e5-1",
+      "binId": "BIN-231",
+      "buildingLocation": "PERM RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": null,
+      "sourceSize": "6YD / 25YD / 30YD",
+      "containerNumber": 1,
+      "sourceRow": 52,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "7606e1636d57f4e5-2",
+      "binId": "BIN-232",
+      "buildingLocation": "PERM RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": null,
+      "sourceSize": "6YD / 25YD / 30YD",
+      "containerNumber": 2,
+      "sourceRow": 52,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "7606e1636d57f4e5-3",
+      "binId": "BIN-233",
+      "buildingLocation": "PERM RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": null,
+      "sourceSize": "6YD / 25YD / 30YD",
+      "containerNumber": 3,
+      "sourceRow": 52,
+      "qrStatus": "size confirmation needed"
+    },
+    {
+      "sourceKey": "f518f68a90da03cf-1",
+      "binId": "BIN-234",
+      "buildingLocation": "PERM RO",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "30 Yard Dumpster",
+      "sourceSize": "30YD",
+      "containerNumber": 1,
+      "sourceRow": 52,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "633753a5b0523622-1",
+      "binId": "BIN-235",
+      "buildingLocation": "RIVERFRONT CR FL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 53,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "07102d7fd8965819-1",
+      "binId": "BIN-236",
+      "buildingLocation": "RIVERFRONT CR FL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 53,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a4e123bb59c05bc5-1",
+      "binId": "BIN-237",
+      "buildingLocation": "RIVERFRONT CR RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "10 Yard Dumpster",
+      "sourceSize": "10YD",
+      "containerNumber": 1,
+      "sourceRow": 54,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c70fdbd77265513c-1",
+      "binId": "BIN-238",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "8c5868dc67471e08-1",
+      "binId": "BIN-239",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-1",
+      "binId": "BIN-240",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 1,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-2",
+      "binId": "BIN-241",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 2,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-3",
+      "binId": "BIN-242",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 3,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-4",
+      "binId": "BIN-243",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 4,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-5",
+      "binId": "BIN-244",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 5,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-6",
+      "binId": "BIN-245",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 6,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-7",
+      "binId": "BIN-246",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 7,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-8",
+      "binId": "BIN-247",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 8,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-9",
+      "binId": "BIN-248",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 9,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4e6b86841eee9727-10",
+      "binId": "BIN-249",
+      "buildingLocation": "TAILGATING LOT 8",
+      "wasteStream": "Organics",
+      "containerTypeSize": "60 Gallon Container",
+      "sourceSize": "60GAL",
+      "containerNumber": 10,
+      "sourceRow": 55,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "985ce46b5a24b0fe-1",
+      "binId": "BIN-250",
+      "buildingLocation": "THE WELL FL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 56,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "948338574fd7ef86-1",
+      "binId": "BIN-251",
+      "buildingLocation": "THE WELL FL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "90 Gallon Container",
+      "sourceSize": "90GAL",
+      "containerNumber": 1,
+      "sourceRow": 56,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "926a0ad5423ab5c2-1",
+      "binId": "BIN-252",
+      "buildingLocation": "THE WELL RO",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "15 Yard Dumpster",
+      "sourceSize": "15YD",
+      "containerNumber": 1,
+      "sourceRow": 57,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "c981d73e7c74ae10-1",
+      "binId": "BIN-253",
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "10 Yard Dumpster",
+      "sourceSize": "10YD",
+      "containerNumber": 1,
+      "sourceRow": 58,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "dce29e1df4f52bf6-1",
+      "binId": "BIN-254",
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 59,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e38024ab69c12cd9-1",
+      "binId": "BIN-255",
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 59,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e38024ab69c12cd9-2",
+      "binId": "BIN-256",
+      "buildingLocation": "UNIV UNION E.DOCK",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 2,
+      "sourceRow": 59,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6067ef5655bf9d9e-1",
+      "binId": "BIN-257",
+      "buildingLocation": "UNIVERSITY UNION",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "6 Yard Dumpster",
+      "sourceSize": "6YD",
+      "containerNumber": 1,
+      "sourceRow": 60,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "3c249cdb63801cf6-1",
+      "binId": "BIN-258",
+      "buildingLocation": "UNIVERSITY UNION",
+      "wasteStream": "Organics",
+      "containerTypeSize": "2 Yard Dumpster",
+      "sourceSize": "2YD",
+      "containerNumber": 1,
+      "sourceRow": 60,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "cba1e1d60c5563d6-1",
+      "binId": "BIN-259",
+      "buildingLocation": "UNIVERSITY UNION",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "30 Yard Dumpster",
+      "sourceSize": "30YD",
+      "containerNumber": 1,
+      "sourceRow": 61,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "23f84e1333a13c93-1",
+      "binId": "BIN-260",
+      "buildingLocation": "23RD AVE WAREHOUSE",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 63,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "d47bdcd69d25c59c-1",
+      "binId": "BIN-261",
+      "buildingLocation": "23RD AVE WAREHOUSE",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 63,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a29732533d8e95aa-1",
+      "binId": "BIN-262",
+      "buildingLocation": "23RD AVE WAREHOUSE",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 63,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6ef7dbc50a88857c-1",
+      "binId": "BIN-263",
+      "buildingLocation": "NIMBUS FLATS",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "40 Yard Dumpster",
+      "sourceSize": "40YD",
+      "containerNumber": 1,
+      "sourceRow": 64,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "737c51de968ec7ba-1",
+      "binId": "BIN-264",
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 68,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "737c51de968ec7ba-2",
+      "binId": "BIN-265",
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 68,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "63a5e5238718409a-1",
+      "binId": "BIN-266",
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 68,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "17c768a6047ead1f-1",
+      "binId": "BIN-267",
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 68,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "17c768a6047ead1f-2",
+      "binId": "BIN-268",
+      "buildingLocation": "AMC NORTH",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 2,
+      "sourceRow": 68,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "50a78bd1ab7c721f-1",
+      "binId": "BIN-269",
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 69,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "50a78bd1ab7c721f-2",
+      "binId": "BIN-270",
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 69,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "50a78bd1ab7c721f-3",
+      "binId": "BIN-271",
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 3,
+      "sourceRow": 69,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "bd5c9d3787f0445e-1",
+      "binId": "BIN-272",
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 69,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "bd5c9d3787f0445e-2",
+      "binId": "BIN-273",
+      "buildingLocation": "AMC SOUTH",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 2,
+      "sourceRow": 69,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "94e5a4abe9b35b94-1",
+      "binId": "BIN-274",
+      "buildingLocation": "DESMOND HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 70,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "47a04ae3af854654-1",
+      "binId": "BIN-275",
+      "buildingLocation": "DESMOND HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 70,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "df47678ce4545993-1",
+      "binId": "BIN-276",
+      "buildingLocation": "DESMOND HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 70,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "67b9bc1bc0771da6-1",
+      "binId": "BIN-277",
+      "buildingLocation": "DRAPER HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 71,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e681a0a5897d06fc-1",
+      "binId": "BIN-278",
+      "buildingLocation": "DRAPER HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 71,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "f8be40e8d0124edd-1",
+      "binId": "BIN-279",
+      "buildingLocation": "DRAPER HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 71,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "e93acb05625b2dbc-1",
+      "binId": "BIN-280",
+      "buildingLocation": "KLAMATH HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 72,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "cd9f930a0bb0f2f5-1",
+      "binId": "BIN-281",
+      "buildingLocation": "KLAMATH HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 72,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "43c4ebb1ad85ba94-1",
+      "binId": "BIN-282",
+      "buildingLocation": "KLAMATH HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 72,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6f4b1534a155fecd-1",
+      "binId": "BIN-283",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6f4b1534a155fecd-2",
+      "binId": "BIN-284",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6f4b1534a155fecd-3",
+      "binId": "BIN-285",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 3,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6f4b1534a155fecd-4",
+      "binId": "BIN-286",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 4,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6f4b1534a155fecd-5",
+      "binId": "BIN-287",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 5,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ae500a8c697fb1b1-1",
+      "binId": "BIN-288",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "3 Yard Dumpster",
+      "sourceSize": "3YD",
+      "containerNumber": 1,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a4c452b1d723d061-1",
+      "binId": "BIN-289",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a4c452b1d723d061-2",
+      "binId": "BIN-290",
+      "buildingLocation": "MT WHITNEY",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 2,
+      "sourceRow": 73,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "a54bdbe8e1802c40-1",
+      "binId": "BIN-291",
+      "buildingLocation": "HOUSING-RIVERVIEW",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "20 Yard Dumpster",
+      "sourceSize": "20YD",
+      "containerNumber": 1,
+      "sourceRow": 74,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "38b28daaf79532dd-1",
+      "binId": "BIN-292",
+      "buildingLocation": "HOUSINGRIVERVIEW E",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 75,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "38b28daaf79532dd-2",
+      "binId": "BIN-293",
+      "buildingLocation": "HOUSINGRIVERVIEW E",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 75,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6d6be9a322a2a339-1",
+      "binId": "BIN-294",
+      "buildingLocation": "HOUSINGRIVERVIEW E",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 75,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "6d6be9a322a2a339-2",
+      "binId": "BIN-295",
+      "buildingLocation": "HOUSINGRIVERVIEW E",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 75,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9eea06b7db117503-1",
+      "binId": "BIN-296",
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 76,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9eea06b7db117503-2",
+      "binId": "BIN-297",
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 2,
+      "sourceRow": 76,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "9eea06b7db117503-3",
+      "binId": "BIN-298",
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 3,
+      "sourceRow": 76,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "5342a38f31a39a48-1",
+      "binId": "BIN-299",
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 76,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "ee056a4ae7eff065-1",
+      "binId": "BIN-300",
+      "buildingLocation": "RIVERVIEW N",
+      "wasteStream": "Organics",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 76,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "61345b260461539b-1",
+      "binId": "BIN-301",
+      "buildingLocation": "SIERRA HALL",
+      "wasteStream": "Landfill",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 77,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "5d31fa6be00d47b3-1",
+      "binId": "BIN-302",
+      "buildingLocation": "SIERRA HALL",
+      "wasteStream": "Recycling",
+      "containerTypeSize": "4 Yard Dumpster",
+      "sourceSize": "4YD",
+      "containerNumber": 1,
+      "sourceRow": 77,
+      "qrStatus": "ready"
+    },
+    {
+      "sourceKey": "4c196e2ae3562cbf-1",
+      "binId": "BIN-303",
+      "buildingLocation": "SIERRA HALL",
+      "wasteStream": "Organics",
+      "containerTypeSize": "64 Gallon Container",
+      "sourceSize": "64GAL",
+      "containerNumber": 1,
+      "sourceRow": 77,
+      "qrStatus": "ready"
+    }
+  ]
+}

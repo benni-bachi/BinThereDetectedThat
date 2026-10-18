@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#154734">
+  <title>Service overview | Bin There, Detected That</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="overview-metrics.js" defer></script>
+  <script src="overview.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><div><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></div></div><span class="header-label">CAMPUS WASTE OPERATIONS</span></header>
+  <main>
+    <nav class="page-nav" aria-label="Dashboard pages"><a href="overview.html" aria-current="page">Overview</a><a href="index.html">Collection activity</a></nav>
+    <section class="intro"><div><p class="eyebrow">SERVICE OVERVIEW</p><h1>Campus service.<br><span>In perspective.</span></h1><p class="subtitle">Pickup demand by stream, location, and time.</p></div><a class="primary-button" id="new-collection" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=AZC0tj-L-kOZoXBujH41mMDhpnz29-JJttbJSNrVO5FUNzFLQU5YS1lFNDdZSktERjdGS1ZQV09TVC4u" target="_blank" rel="noopener noreferrer">＋ New Collection <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></section>
+    <div class="demo-note"><span class="demo-dot" aria-hidden="true"></span><strong>Two sources, clear context</strong><span>Workbook schedules describe planned service. Microsoft List records describe reported collections. Scheduled pickups are never counted as completed collections.</span></div>
+    <section class="filters overview-filters" aria-label="Filter overview">
+      <div><label for="view-source">Show</label><select id="view-source"><option value="planned">Planned weekly service</option><option value="recorded">Recorded pickups</option></select></div>
+      <div><label for="overview-location">Building / location</label><select id="overview-location"><option value="">All locations</option></select></div>
+      <div><label for="overview-stream">Waste stream</label><select id="overview-stream"><option value="">All streams</option><option>Landfill</option><option>Recycling</option><option>Organics</option></select></div>
+      <div><label for="overview-from">From date</label><input id="overview-from" type="date" disabled></div>
+      <div><label for="overview-to">To date</label><input id="overview-to" type="date" disabled></div>
+      <button class="reset-button" id="overview-reset" type="button">Reset filters</button>
+    </section>
+    <p id="source-context" class="source-context"></p>
+    <div id="overview-error" class="error" role="alert" hidden></div>
+    <div class="section-caption"><h2 id="overview-heading">Planned service snapshot</h2><p id="overview-count" role="status" aria-live="polite">Loading overview…</p></div>
+    <section class="metrics overview-metrics" id="overview-metrics" aria-label="Overview metrics"></section>
+    <section class="charts" aria-label="Pickup analysis">
+      <article class="panel trend-panel"><div class="panel-heading"><div><h2 id="trend-heading">Weekly service pattern</h2><p id="trend-description"></p></div></div><div id="pickup-trend" class="pickup-trend"></div><p id="trend-takeaway" class="chart-note"></p></article>
+      <article class="panel"><div class="panel-heading"><div><h2>Pickups by waste stream</h2><p id="stream-unit"></p></div></div><div id="overview-stream-chart"></div></article>
+      <article class="panel"><div class="panel-heading"><div><h2>Pickups by location</h2><p id="location-unit">Top 15 locations</p></div></div><div id="overview-location-chart"></div></article>
+    </section>
+    <section class="panel service-quality"><div class="panel-heading"><div><h2>Schedule details to confirm</h2><p>Missing values stay unknown. Qualified frequencies and conflicting service days are excluded from the affected calculations.</p></div></div><details><summary id="quality-count">View schedule notes</summary><div class="table-scroll"><table><thead><tr><th>Location</th><th>Stream</th><th>Source size / frequency / days</th><th>Review needed</th></tr></thead><tbody id="quality-body"></tbody></table></div></details></section>
+    <section class="panel bin-directory"><div class="panel-heading"><div><h2>Unique bin QR labels</h2><p>Workbook containers receive BIN-004 onward. Original pilot labels BIN-001–003 stay unchanged. Attach each numbered label to its corresponding physical container before use.</p></div><a class="text-link" href="generated/qr-labels.zip" download>Download QR pack</a></div><p id="qr-summary" class="chart-note"></p><p class="chart-note">Mixed-size groups are held for confirmation. The download pack includes the original pilot labels and the ready workbook labels.</p><div class="table-scroll"><table><caption class="sr-only">Workbook container QR directory</caption><thead><tr><th>Bin ID</th><th>Location</th><th>Stream</th><th>Container</th><th>QR label</th></tr></thead><tbody id="bin-directory-body"></tbody></table></div></section>
+    <footer><span>Bin There, Detected That / Sacramento State</span><span>CSC 131 · Class demonstration</span></footer>
+  </main>
+</body>
+</html>
