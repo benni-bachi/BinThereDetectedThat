@@ -30,12 +30,10 @@
     const rows=planned?schedules:completed;
     const weight=planned?OverviewMath.weeklyPickups:()=>1;
     const total=rows.reduce((n,r)=>n+weight(r),0);
-    const unknown=schedules.filter(r=>r.weeklyFrequency===null).reduce((n,r)=>n+r.quantity,0);
     const metrics=planned ? [
       ['Known weekly pickups',number(total),'Containers × stated weekly frequency'],
       ['Containers',number(OverviewMath.sum(schedules,'quantity')),'In the workbook selection'],
-      ['Service locations',new Set(rows.map(r=>r.buildingLocation)).size,'With listed containers'],
-      ['Frequency unspecified',number(unknown),'Containers excluded from pickup totals']
+      ['Service locations',new Set(rows.map(r=>r.buildingLocation)).size,'With listed containers']
     ] : [
       ['Completed pickups',number(total),'Reports marked service completed'],
       ['Collection reports',number(attempts.length),'Includes service exceptions'],
@@ -45,9 +43,9 @@
     el('overview-metrics').innerHTML=metrics.map(([title,value,note])=>`<article class="metric"><h3 class="metric-label">${title}</h3><div class="metric-value">${value}</div><p class="metric-note">${note}</p></article>`).join('');
     el('overview-heading').textContent=planned?'Planned service snapshot':'Recorded pickup snapshot';
     el('overview-count').textContent=planned?`${schedules.length} service entries`:`${attempts.length} collection reports`;
-    el('source-context').textContent=planned?'Source: Sacramento State Service Overview, UPDATED sheet. No historical service dates are supplied. Weekly totals include stated numeric frequencies only.':'Source: sanitized Microsoft List snapshot. Completed pickups only in charts; test and future-dated reports retain their source dates. Refresh to load the latest published snapshot.';
+    el('source-context').textContent=planned?'Source: Sacramento State Service Overview, UPDATED sheet. Weekly totals use stated service frequencies.':'Source: sanitized Microsoft List snapshot. Completed pickups only in charts; test and future-dated reports retain their source dates. Refresh to load the latest published snapshot.';
     el('trend-heading').textContent=planned?'Weekly service pattern':'Pickup trends over time';
-    el('trend-description').textContent=planned?'Planned container pickups by weekday, where days and frequency agree.':'Completed collection reports by week starting Monday. Zero-record weeks are shown within the report range.';
+    el('trend-description').textContent=planned?'Planned container pickups by weekday.':'Completed collection reports by week starting Monday. Zero-record weeks are shown within the report range.';
     el('stream-unit').textContent=planned?'Known planned container pickups per week':'Completed pickups in the date selection';
     el('location-unit').textContent=planned?'Top 15 by known planned weekly pickups':'Top 15 by completed pickups';
     bars('overview-stream-chart',OverviewMath.group(rows,'wasteStream',weight));
@@ -56,18 +54,15 @@
     const pairs=planned?OverviewMath.weekdays(rows):OverviewMath.weeklyHistory(rows);
     trend(pairs,planned);
     if(planned) {
-      const assigned=pairs.reduce((n,p)=>n+p[1],0), peak=[...pairs].sort((a,b)=>b[1]-a[1])[0];
-      el('trend-takeaway').textContent=`${peak && peak[1] ? `${peak[0]} has the busiest known schedule (${peak[1]} pickups). ` : ''}${number(total-assigned)} known weekly pickups cannot be placed on a weekday because source days and frequency disagree. ${unknown} containers have no unqualified weekly frequency.`;
+      const peak=[...pairs].sort((a,b)=>b[1]-a[1])[0];
+      el('trend-takeaway').textContent=peak && peak[1] ? `${peak[0]} has the busiest known schedule (${peak[1]} pickups).` : '';
     } else {
       const peak=[...pairs].sort((a,b)=>b[1]-a[1])[0];
       el('trend-takeaway').textContent=peak?`Peak reported week: ${dateLabel(peak[0])} (${peak[1]} completed pickups). ${pairs.length<4?'The limited reporting history does not establish a sustained trend.':''}`:'No completed pickups in this selection.';
     }
-    const issues=schedules.filter(r=>r.issues.length);
-    el('quality-count').textContent=`${issues.length} service entries need confirmation`;
-    el('quality-body').innerHTML=issues.map(r=>`<tr><td>${safe(r.buildingLocation)}</td><td>${safe(r.wasteStream)}</td><td>${safe(r.sourceSize)} / ${safe(r.sourceFrequency)} / ${safe(r.serviceDays.join('/')||'Unspecified')}</td><td>${safe(r.issues.join('; '))}</td></tr>`).join('') || '<tr><td colspan="4">No schedule notes for this selection.</td></tr>';
-    const bins=serviceData.bins.filter(matches), ready=bins.filter(b=>b.qrStatus==='ready').length;
-    el('qr-summary').textContent=`${bins.length} workbook containers · ${ready} QR labels available · ${bins.length-ready} held for size confirmation. Container numbers distinguish labels within each source service group; physical placement must be verified.`;
-    el('bin-directory-body').innerHTML=bins.map(b=>`<tr><td><strong>${safe(b.binId)}</strong></td><td>${safe(b.buildingLocation)}<span class="secondary">Source row ${b.sourceRow}, container ${b.containerNumber}</span></td><td>${safe(b.wasteStream)}</td><td>${safe(b.containerTypeSize||b.sourceSize)}</td><td>${b.qrStatus==='ready'?`<a class="text-link" href="generated/qr/${safe(b.binId)}.png" download>Download PNG</a>`:'Size confirmation needed'}</td></tr>`).join('') || '<tr><td colspan="5">No workbook containers match this location and stream.</td></tr>';
+    const bins=serviceData.bins.filter(matches).filter(b=>b.qrStatus==='ready');
+    el('qr-summary').textContent=`${bins.length} QR labels available for this selection.`;
+    el('bin-directory-body').innerHTML=bins.map(b=>`<tr><td><strong>${safe(b.binId)}</strong></td><td>${safe(b.buildingLocation)}<span class="secondary">Container ${b.containerNumber}</span></td><td>${safe(b.wasteStream)}</td><td>${safe(b.containerTypeSize)}</td><td><a class="text-link" href="generated/qr/${safe(b.binId)}.png" download>Download PNG</a></td></tr>`).join('') || '<tr><td colspan="5">No QR labels match this location and stream.</td></tr>';
   }
   function sourceChanged() {
     const planned=el('view-source').value==='planned';
