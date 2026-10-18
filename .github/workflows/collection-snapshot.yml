@@ -4,7 +4,7 @@ on:
     types: [collection-snapshot]
   push:
     branches: [main]
-    paths: ['index.html', 'styles.css', 'app.js', 'data/records.json', '.github/workflows/collection-snapshot.yml']
+    paths: ['*.html', '*.css', '*.js', 'data/**', 'generated/**', 'scripts/**', '.github/workflows/collection-snapshot.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,7 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Check snapshot validator
-        run: python3 -m unittest discover -s scripts -p test_import_snapshot.py
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Check service overview calculations
+        run: node scripts/test_overview.js
       - name: Validate public snapshot
         if: github.event_name == 'repository_dispatch'
         run: python3 scripts/import_snapshot.py
@@ -34,8 +36,10 @@ jobs:
       - name: Prepare public website files
         run: |
           mkdir -p _site/data
-          cp index.html styles.css app.js _site/
-          cp data/records.json _site/data/
+          cp index.html overview.html styles.css app.js overview.js overview-metrics.js _site/
+          cp data/records.json data/service-overview.json _site/data/
+          cp -r generated _site/
+          unzip -o generated/qr-labels.zip -d _site/generated
       - name: Upload static website
         uses: actions/upload-pages-artifact@v4
         with:

@@ -1,6 +1,7 @@
 """Generate bin QR codes and a manifest from data/bin-links.csv."""
 
 import csv
+import zipfile
 from pathlib import Path
 
 import qrcode
@@ -48,6 +49,13 @@ def main():
             writer.writerow({**{field: row[field] for field in FIELDS}, "QR filename": f'{row["BinID"]}.png'})
     print(f"Generated {len(rows)} QR PNGs in {output}")
     print(f"Manifest: {manifest}")
+    pack = ROOT / 'generated' / 'qr-labels.zip'
+    with zipfile.ZipFile(pack, 'w', compression=zipfile.ZIP_DEFLATED) as archive:
+        archive.write(manifest, 'qr-manifest.csv')
+        for row in rows:
+            filename = f'{row["BinID"]}.png'
+            archive.write(output / filename, f'qr/{filename}')
+    print(f'QR pack: {pack}')
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 """Validate a sanitized Power Automate snapshot before replacing dashboard JSON."""
+import csv
 import json
 import os
 import re
@@ -7,7 +8,8 @@ from pathlib import Path
 
 FIELDS = 'responseId binId buildingLocation wasteStream containerTypeSize driverName collectionDate collectionTime fullnessLevel contaminationObserved serviceCompleted nonServiceReason overflowOutsideBin damagedMaintenanceIssue maintenanceDamageDetails additionalComments'.split()
 FLAGS = ['contaminationObserved', 'serviceCompleted', 'overflowOutsideBin', 'damagedMaintenanceIssue']
-BINS = {'BIN-001': ('University Union', 'Landfill', '3 Yard Dumpster'), 'BIN-002': ('Library', 'Recycling', '4 Yard Dumpster'), 'BIN-003': ('The WELL', 'Organics', '3 Yard Dumpster')}
+with (Path(__file__).resolve().parents[1] / 'data/bin-links.csv').open(encoding='utf-8-sig', newline='') as registry:
+    BINS = {r['BinID']: (r['BuildingLocation'], r['WasteStream'], r['ContainerTypeSize']) for r in csv.DictReader(registry)}
 EXCEPTION = 'Service exception reported; details retained internally.'
 MAINTENANCE = 'Maintenance issue reported; details retained internally.'
 
