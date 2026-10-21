@@ -43,7 +43,6 @@
     el('overview-metrics').innerHTML=metrics.map(([title,value,note])=>`<article class="metric"><h3 class="metric-label">${title}</h3><div class="metric-value">${value}</div><p class="metric-note">${note}</p></article>`).join('');
     el('overview-heading').textContent=planned?'Planned service snapshot':'Recorded pickup snapshot';
     el('overview-count').textContent=planned?`${schedules.length} service entries`:`${attempts.length} collection reports`;
-    el('source-context').textContent=planned?'Source: Sacramento State Service Overview, UPDATED sheet. Weekly totals use stated service frequencies.':'Source: sanitized Microsoft List snapshot. Completed pickups only in charts; test and future-dated reports retain their source dates. Refresh to load the latest published snapshot.';
     el('trend-heading').textContent=planned?'Weekly service pattern':'Pickup trends over time';
     el('trend-description').textContent=planned?'Planned container pickups by weekday.':'Completed collection reports by week starting Monday. Zero-record weeks are shown within the report range.';
     el('stream-unit').textContent=planned?'Known planned container pickups per week':'Completed pickups in the date selection';
