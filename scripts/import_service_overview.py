@@ -105,6 +105,7 @@ def build(source, prior=None):
                                  buildingLocation=location.strip(), wasteStream=stream,
                                  containerTypeSize=size_label, sourceSize=str(size or ''),
                                  containerNumber=ordinal, sourceRow=index,
+                                 weeklyFrequency=frequency, serviceDays=list(days),
                                  qrStatus='ready' if size_label else 'size confirmation needed'))
     else:
         raise ValueError('Missing source totals')

@@ -2266,7 +2266,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 6,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "c6171c2c0059d649-2",
@@ -2277,7 +2283,13 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 6,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "60af8ecae8cc7f19-1",
@@ -2288,7 +2300,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 6,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "4c64183d5a7ae86a-1",
@@ -2299,7 +2315,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 7,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "0bb8b917a5edbd7a-1",
@@ -2310,7 +2331,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 7,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "37f8e3a18cdcab29-1",
@@ -2321,7 +2346,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 7,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "ff7bbf801b2c40f2-1",
@@ -2332,7 +2361,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 8,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ]
     },
     {
       "sourceKey": "fde2eed6d1e8b2cc-1",
@@ -2343,7 +2377,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 9,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "730f0e3823e038e7-1",
@@ -2354,7 +2393,9 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 9,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": []
     },
     {
       "sourceKey": "729dc210ec5764b3-1",
@@ -2365,7 +2406,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 9,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": []
     },
     {
       "sourceKey": "52352d519a22fd77-1",
@@ -2376,7 +2419,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 10,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "4be2b2724376ec56-1",
@@ -2387,7 +2435,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 10,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "d36078f652c2c40e-1",
@@ -2398,7 +2450,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 10,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "adb8902921c9fc0e-1",
@@ -2409,7 +2465,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 11,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "e94b95440d50144e-1",
@@ -2420,7 +2482,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 11,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "b4316f95359d965e-1",
@@ -2431,7 +2497,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 11,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "bab2a62115eedabf-1",
@@ -2442,7 +2512,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 12,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "ac4d33da5050cb4a-1",
@@ -2453,7 +2528,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 12,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "59bf35277fb1d15b-1",
@@ -2464,7 +2543,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 12,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "9402796239c7c74e-1",
@@ -2475,7 +2558,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 13,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "9402796239c7c74e-2",
@@ -2486,7 +2573,11 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 13,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "62d9bb0158c68b16-1",
@@ -2497,7 +2588,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 13,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "b2eed9cce3fed385-1",
@@ -2508,7 +2603,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 14,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2eed9cce3fed385-2",
@@ -2519,7 +2620,13 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 14,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "8651046aca26f86b-1",
@@ -2530,7 +2637,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 14,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "MON",
+        "WED"
+      ]
     },
     {
       "sourceKey": "2266a76ab617f64e-1",
@@ -2541,7 +2653,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 14,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "2e70b854b6dd3931-1",
@@ -2552,7 +2668,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "2e70b854b6dd3931-2",
@@ -2563,7 +2684,12 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "2e70b854b6dd3931-3",
@@ -2574,7 +2700,12 @@
       "sourceSize": "4YD",
       "containerNumber": 3,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "2e70b854b6dd3931-4",
@@ -2585,7 +2716,12 @@
       "sourceSize": "4YD",
       "containerNumber": 4,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "1078791e86af5968-1",
@@ -2596,7 +2732,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "1078791e86af5968-2",
@@ -2607,7 +2747,11 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "95dd05edbc35eb80-1",
@@ -2618,7 +2762,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 15,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "388fd4a7bc1b0b06-1",
@@ -2629,7 +2777,12 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 16,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "388fd4a7bc1b0b06-2",
@@ -2640,7 +2793,12 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 16,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "04701a9892166a92-1",
@@ -2651,7 +2809,11 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 16,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "04701a9892166a92-2",
@@ -2662,7 +2824,11 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 16,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "b9b1da71f8cb939f-1",
@@ -2673,7 +2839,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 16,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "c0f0fd0fc1ca00cb-1",
@@ -2684,7 +2854,13 @@
       "sourceSize": "8YD",
       "containerNumber": 1,
       "sourceRow": 17,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b7a04f3b22d838ac-1",
@@ -2695,7 +2871,11 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 17,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "42afd7e6e2aa0417-1",
@@ -2706,7 +2886,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 17,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f25b5d42db9bd959-1",
@@ -2717,7 +2901,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 18,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "1e75398c7fa05f79-1",
@@ -2728,7 +2917,11 @@
       "sourceSize": "1YD",
       "containerNumber": 1,
       "sourceRow": 18,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "0aaa583e5ec54b62-1",
@@ -2739,7 +2932,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 18,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "d5fd66624e98bf8f-1",
@@ -2750,7 +2947,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 19,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "e994fcc4175db85d-1",
@@ -2761,7 +2963,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 19,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "5e9843c9940fa4e9-1",
@@ -2772,7 +2978,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 19,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "216dfa4496766433-1",
@@ -2783,7 +2993,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 20,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "216dfa4496766433-2",
@@ -2794,7 +3009,12 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 20,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "c615c0d27ab3148b-1",
@@ -2805,7 +3025,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 20,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "7c22d3e751121387-1",
@@ -2816,7 +3040,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 20,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "2b4b98f69cb123fa-1",
@@ -2827,7 +3055,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 21,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "2b4b98f69cb123fa-2",
@@ -2838,7 +3071,12 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 21,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "165facb595a79944-1",
@@ -2849,7 +3087,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 21,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "7471286d5d43f5a7-1",
@@ -2860,7 +3102,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 21,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "b1d168d7aeea2fb0-1",
@@ -2871,7 +3117,12 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 22,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b1d168d7aeea2fb0-2",
@@ -2882,7 +3133,12 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 22,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "9333bd08b6fd743f-1",
@@ -2893,7 +3149,11 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 22,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "d5f75b6b87ac0995-1",
@@ -2904,7 +3164,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 22,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "ee09d05252db564d-1",
@@ -2915,7 +3179,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 23,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "ee09d05252db564d-2",
@@ -2926,7 +3195,12 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 23,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "9305049baacf7c10-1",
@@ -2937,7 +3211,11 @@
       "sourceSize": "8YD",
       "containerNumber": 1,
       "sourceRow": 23,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "3438cf1a0415f1a7-1",
@@ -2948,7 +3226,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 23,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "2fa80b2f906a0ab9-1",
@@ -2959,7 +3241,12 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 24,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "2fa80b2f906a0ab9-2",
@@ -2970,7 +3257,12 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 24,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "2fa80b2f906a0ab9-3",
@@ -2981,7 +3273,12 @@
       "sourceSize": "3YD",
       "containerNumber": 3,
       "sourceRow": 24,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "3f47c5c682ad1afe-1",
@@ -2992,7 +3289,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 24,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "804dc92d0e3a7c64-1",
@@ -3003,7 +3304,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 24,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "166d57f8ecbbbd15-1",
@@ -3014,7 +3319,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 25,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "33030446b69b4dd2-1",
@@ -3025,7 +3335,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 25,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "33030446b69b4dd2-2",
@@ -3036,7 +3350,11 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 25,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "7f2fb67eb62ce1ac-1",
@@ -3047,7 +3365,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 25,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "a1acff41660aa618-1",
@@ -3058,7 +3380,9 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-1",
@@ -3069,7 +3393,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 1,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-2",
@@ -3080,7 +3406,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 2,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-3",
@@ -3091,7 +3419,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 3,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-4",
@@ -3102,7 +3432,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 4,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-5",
@@ -3113,7 +3445,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 5,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-6",
@@ -3124,7 +3458,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 6,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-7",
@@ -3135,7 +3471,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 7,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-8",
@@ -3146,7 +3484,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 8,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-9",
@@ -3157,7 +3497,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 9,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-10",
@@ -3168,7 +3510,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 10,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-11",
@@ -3179,7 +3523,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 11,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-12",
@@ -3190,7 +3536,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 12,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-13",
@@ -3201,7 +3549,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 13,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-14",
@@ -3212,7 +3562,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 14,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-15",
@@ -3223,7 +3575,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 15,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-16",
@@ -3234,7 +3588,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 16,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-17",
@@ -3245,7 +3601,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 17,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-18",
@@ -3256,7 +3614,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 18,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-19",
@@ -3267,7 +3627,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 19,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-20",
@@ -3278,7 +3640,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 20,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "e3f4e585a6fbb5fb-21",
@@ -3289,7 +3653,9 @@
       "sourceSize": "64GAL / 6YD",
       "containerNumber": 21,
       "sourceRow": 26,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-1",
@@ -3300,7 +3666,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-2",
@@ -3311,7 +3679,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 2,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-3",
@@ -3322,7 +3692,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 3,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-4",
@@ -3333,7 +3705,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 4,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-5",
@@ -3344,7 +3718,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 5,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-6",
@@ -3355,7 +3731,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 6,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-7",
@@ -3366,7 +3744,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 7,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-8",
@@ -3377,7 +3757,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 8,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-9",
@@ -3388,7 +3770,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 9,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-10",
@@ -3399,7 +3783,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 10,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-11",
@@ -3410,7 +3796,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 11,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-12",
@@ -3421,7 +3809,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 12,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-13",
@@ -3432,7 +3822,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 13,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-14",
@@ -3443,7 +3835,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 14,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-15",
@@ -3454,7 +3848,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 15,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-16",
@@ -3465,7 +3861,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 16,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-17",
@@ -3476,7 +3874,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 17,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-18",
@@ -3487,7 +3887,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 18,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-19",
@@ -3498,7 +3900,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 19,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "0ee61b0c9d76f76e-20",
@@ -3509,7 +3913,9 @@
       "sourceSize": "64GAL",
       "containerNumber": 20,
       "sourceRow": 26,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "98cc65d52cb520c4-1",
@@ -3520,7 +3926,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 27,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "MON",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "410f622bbac32944-1",
@@ -3531,7 +3942,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 27,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "0769159073c74747-1",
@@ -3542,7 +3957,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 27,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "215a0f8dada36e62-1",
@@ -3553,7 +3972,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 28,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ]
     },
     {
       "sourceKey": "856171b8da771dd4-1",
@@ -3564,7 +3988,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 29,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ]
     },
     {
       "sourceKey": "193cce96699cc500-1",
@@ -3575,7 +4004,11 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 29,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "FRI"
+      ]
     },
     {
       "sourceKey": "025810c3a093f9cb-1",
@@ -3586,7 +4019,11 @@
       "sourceSize": "96GAL",
       "containerNumber": 1,
       "sourceRow": 30,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "91e5a7c979da7020-1",
@@ -3597,7 +4034,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 30,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "1775e4fe084ba74d-1",
@@ -3608,7 +4049,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 31,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "16c20ec64ffa4c1d-1",
@@ -3619,7 +4064,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 31,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "MON"
+      ]
     },
     {
       "sourceKey": "26fc818908f2946f-1",
@@ -3630,7 +4079,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 31,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "261ce1d8a81f8b97-1",
@@ -3641,7 +4094,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 32,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "160afb6887db85be-1",
@@ -3652,7 +4111,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 32,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "78fea7507bdd6a6c-1",
@@ -3663,7 +4126,11 @@
       "sourceSize": "15YD",
       "containerNumber": 1,
       "sourceRow": 33,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "3ac7936860b96a3c-1",
@@ -3674,7 +4141,9 @@
       "sourceSize": "40YD",
       "containerNumber": 1,
       "sourceRow": 34,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3ac7936860b96a3c-2",
@@ -3685,7 +4154,9 @@
       "sourceSize": "40YD",
       "containerNumber": 2,
       "sourceRow": 34,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "b3191b3aabe060f1-1",
@@ -3696,7 +4167,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 35,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "f50cddd322b98161-1",
@@ -3707,7 +4184,13 @@
       "sourceSize": "8YD",
       "containerNumber": 1,
       "sourceRow": 35,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "f50cddd322b98161-2",
@@ -3718,7 +4201,13 @@
       "sourceSize": "8YD",
       "containerNumber": 2,
       "sourceRow": 35,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b918ac9678ad5a02-1",
@@ -3729,7 +4218,11 @@
       "sourceSize": "20YD",
       "containerNumber": 1,
       "sourceRow": 36,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "c3ff5776f84ae6a7-1",
@@ -3740,7 +4233,12 @@
       "sourceSize": "2YD",
       "containerNumber": 1,
       "sourceRow": 37,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "ea60e57e67261958-1",
@@ -3751,7 +4249,11 @@
       "sourceSize": "90GAL",
       "containerNumber": 1,
       "sourceRow": 37,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "51cfd16851078bb2-1",
@@ -3762,7 +4264,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 37,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "45e0a27dc55274b4-1",
@@ -3773,7 +4279,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 1,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-2",
@@ -3784,7 +4292,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 2,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-3",
@@ -3795,7 +4305,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 3,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-4",
@@ -3806,7 +4318,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 4,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-5",
@@ -3817,7 +4331,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 5,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-6",
@@ -3828,7 +4344,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 6,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-7",
@@ -3839,7 +4357,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 7,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-8",
@@ -3850,7 +4370,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 8,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-9",
@@ -3861,7 +4383,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 9,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "45e0a27dc55274b4-10",
@@ -3872,7 +4396,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 10,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-1",
@@ -3883,7 +4409,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 1,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-2",
@@ -3894,7 +4422,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 2,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-3",
@@ -3905,7 +4435,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 3,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-4",
@@ -3916,7 +4448,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 4,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-5",
@@ -3927,7 +4461,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 5,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-6",
@@ -3938,7 +4474,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 6,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-7",
@@ -3949,7 +4487,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 7,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-8",
@@ -3960,7 +4500,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 8,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-9",
@@ -3971,7 +4513,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 9,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "c690ef8938233dae-10",
@@ -3982,7 +4526,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 10,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-1",
@@ -3993,7 +4539,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 1,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-2",
@@ -4004,7 +4552,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 2,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-3",
@@ -4015,7 +4565,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 3,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-4",
@@ -4026,7 +4578,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 4,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-5",
@@ -4037,7 +4591,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 5,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-6",
@@ -4048,7 +4604,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 6,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-7",
@@ -4059,7 +4617,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 7,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-8",
@@ -4070,7 +4630,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 8,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-9",
@@ -4081,7 +4643,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 9,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "fab8c7402e81b716-10",
@@ -4092,7 +4656,9 @@
       "sourceSize": "90GAL",
       "containerNumber": 10,
       "sourceRow": 38,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "63f111fb4ec964dd-1",
@@ -4103,7 +4669,15 @@
       "sourceSize": "5YD",
       "containerNumber": 1,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "63f111fb4ec964dd-2",
@@ -4114,7 +4688,15 @@
       "sourceSize": "5YD",
       "containerNumber": 2,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "63f111fb4ec964dd-3",
@@ -4125,7 +4707,15 @@
       "sourceSize": "5YD",
       "containerNumber": 3,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "63f111fb4ec964dd-4",
@@ -4136,7 +4726,15 @@
       "sourceSize": "5YD",
       "containerNumber": 4,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "63f111fb4ec964dd-5",
@@ -4147,7 +4745,15 @@
       "sourceSize": "5YD",
       "containerNumber": 5,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-1",
@@ -4158,7 +4764,15 @@
       "sourceSize": "5YD",
       "containerNumber": 1,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-2",
@@ -4169,7 +4783,15 @@
       "sourceSize": "5YD",
       "containerNumber": 2,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-3",
@@ -4180,7 +4802,15 @@
       "sourceSize": "5YD",
       "containerNumber": 3,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-4",
@@ -4191,7 +4821,15 @@
       "sourceSize": "5YD",
       "containerNumber": 4,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-5",
@@ -4202,7 +4840,15 @@
       "sourceSize": "5YD",
       "containerNumber": 5,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-6",
@@ -4213,7 +4859,15 @@
       "sourceSize": "5YD",
       "containerNumber": 6,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-7",
@@ -4224,7 +4878,15 @@
       "sourceSize": "5YD",
       "containerNumber": 7,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-8",
@@ -4235,7 +4897,15 @@
       "sourceSize": "5YD",
       "containerNumber": 8,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-9",
@@ -4246,7 +4916,15 @@
       "sourceSize": "5YD",
       "containerNumber": 9,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-10",
@@ -4257,7 +4935,15 @@
       "sourceSize": "5YD",
       "containerNumber": 10,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-11",
@@ -4268,7 +4954,15 @@
       "sourceSize": "5YD",
       "containerNumber": 11,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "b2da7ea194e9eb29-12",
@@ -4279,7 +4973,15 @@
       "sourceSize": "5YD",
       "containerNumber": 12,
       "sourceRow": 39,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 5,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "92eb9809a7cdab51-1",
@@ -4290,7 +4992,11 @@
       "sourceSize": "5YD",
       "containerNumber": 1,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "FRI"
+      ]
     },
     {
       "sourceKey": "92eb9809a7cdab51-2",
@@ -4301,7 +5007,11 @@
       "sourceSize": "5YD",
       "containerNumber": 2,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "FRI"
+      ]
     },
     {
       "sourceKey": "92eb9809a7cdab51-3",
@@ -4312,7 +5022,11 @@
       "sourceSize": "5YD",
       "containerNumber": 3,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "FRI"
+      ]
     },
     {
       "sourceKey": "92eb9809a7cdab51-4",
@@ -4323,7 +5037,11 @@
       "sourceSize": "5YD",
       "containerNumber": 4,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "FRI"
+      ]
     },
     {
       "sourceKey": "92eb9809a7cdab51-5",
@@ -4334,7 +5052,11 @@
       "sourceSize": "5YD",
       "containerNumber": 5,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "FRI"
+      ]
     },
     {
       "sourceKey": "f3271485ef985b89-1",
@@ -4345,7 +5067,11 @@
       "sourceSize": "5YD",
       "containerNumber": 1,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f3271485ef985b89-2",
@@ -4356,7 +5082,11 @@
       "sourceSize": "5YD",
       "containerNumber": 2,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f3271485ef985b89-3",
@@ -4367,7 +5097,11 @@
       "sourceSize": "5YD",
       "containerNumber": 3,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f3271485ef985b89-4",
@@ -4378,7 +5112,11 @@
       "sourceSize": "5YD",
       "containerNumber": 4,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f3271485ef985b89-5",
@@ -4389,7 +5127,11 @@
       "sourceSize": "5YD",
       "containerNumber": 5,
       "sourceRow": 40,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "bb69eae1dd3bc976-1",
@@ -4400,7 +5142,16 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 41,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 6,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI",
+        "SAT"
+      ]
     },
     {
       "sourceKey": "bb69eae1dd3bc976-2",
@@ -4411,7 +5162,16 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 41,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 6,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI",
+        "SAT"
+      ]
     },
     {
       "sourceKey": "90638cf04ea7dd81-1",
@@ -4422,7 +5182,13 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 41,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "90638cf04ea7dd81-2",
@@ -4433,7 +5199,13 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 41,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "865ee6303c7f51f0-1",
@@ -4444,7 +5216,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 41,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "8dd8babd8f3900bf-1",
@@ -4455,7 +5231,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 42,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "b9ec2eb200d076a6-1",
@@ -4466,7 +5246,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 42,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "6d6f13b658bf1708-1",
@@ -4477,7 +5261,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 42,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "076d5843691d576a-1",
@@ -4488,7 +5276,9 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "076d5843691d576a-2",
@@ -4499,7 +5289,9 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "076d5843691d576a-3",
@@ -4510,7 +5302,9 @@
       "sourceSize": "4YD",
       "containerNumber": 3,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "dcf0241363048658-1",
@@ -4521,7 +5315,9 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "dcf0241363048658-2",
@@ -4532,7 +5328,9 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "dcf0241363048658-3",
@@ -4543,7 +5341,9 @@
       "sourceSize": "4YD",
       "containerNumber": 3,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "dcf0241363048658-4",
@@ -4554,7 +5354,9 @@
       "sourceSize": "4YD",
       "containerNumber": 4,
       "sourceRow": 43,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-1",
@@ -4565,7 +5367,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 1,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-2",
@@ -4576,7 +5380,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 2,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-3",
@@ -4587,7 +5393,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 3,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-4",
@@ -4598,7 +5406,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 4,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-5",
@@ -4609,7 +5419,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 5,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-6",
@@ -4620,7 +5432,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 6,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3a0beb0b61284ec2-7",
@@ -4631,7 +5445,9 @@
       "sourceSize": "5\u00d74YD / 2\u00d73YD",
       "containerNumber": 7,
       "sourceRow": 43,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "84226c8034371fa7-1",
@@ -4642,7 +5458,9 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 44,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "9ee1edd0dbd4ad4c-1",
@@ -4653,7 +5471,9 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 44,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "f6930f0619139019-1",
@@ -4664,7 +5484,9 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 44,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "3f0108aee7cfe2ad-1",
@@ -4675,7 +5497,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 45,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "3f0108aee7cfe2ad-2",
@@ -4686,7 +5512,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 2,
       "sourceRow": 45,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "fa4876f5d385b4b6-1",
@@ -4697,7 +5527,11 @@
       "sourceSize": "25YD",
       "containerNumber": 1,
       "sourceRow": 46,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "a6830f40a4f52fd2-1",
@@ -4708,7 +5542,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 49,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "ea5db2ad7b05e514-1",
@@ -4719,7 +5559,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 49,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "3bc34fd941bd236d-1",
@@ -4730,7 +5574,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 50,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "c71b51fdb187ef3e-1",
@@ -4741,7 +5589,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 50,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f24797c760008ba4-1",
@@ -4752,7 +5604,11 @@
       "sourceSize": "15YD",
       "containerNumber": 1,
       "sourceRow": 51,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "7606e1636d57f4e5-1",
@@ -4763,7 +5619,11 @@
       "sourceSize": "6YD / 25YD / 30YD",
       "containerNumber": 1,
       "sourceRow": 52,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "7606e1636d57f4e5-2",
@@ -4774,7 +5634,11 @@
       "sourceSize": "6YD / 25YD / 30YD",
       "containerNumber": 2,
       "sourceRow": 52,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "7606e1636d57f4e5-3",
@@ -4785,7 +5649,11 @@
       "sourceSize": "6YD / 25YD / 30YD",
       "containerNumber": 3,
       "sourceRow": 52,
-      "qrStatus": "size confirmation needed"
+      "qrStatus": "size confirmation needed",
+      "weeklyFrequency": null,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "f518f68a90da03cf-1",
@@ -4796,7 +5664,9 @@
       "sourceSize": "30YD",
       "containerNumber": 1,
       "sourceRow": 52,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "633753a5b0523622-1",
@@ -4807,7 +5677,13 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 53,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "07102d7fd8965819-1",
@@ -4818,7 +5694,11 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 53,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "a4e123bb59c05bc5-1",
@@ -4829,7 +5709,11 @@
       "sourceSize": "10YD",
       "containerNumber": 1,
       "sourceRow": 54,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "MON"
+      ]
     },
     {
       "sourceKey": "c70fdbd77265513c-1",
@@ -4840,7 +5724,9 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "8c5868dc67471e08-1",
@@ -4851,7 +5737,9 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-1",
@@ -4862,7 +5750,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 1,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-2",
@@ -4873,7 +5763,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 2,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-3",
@@ -4884,7 +5776,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 3,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-4",
@@ -4895,7 +5789,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 4,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-5",
@@ -4906,7 +5802,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 5,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-6",
@@ -4917,7 +5815,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 6,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-7",
@@ -4928,7 +5828,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 7,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-8",
@@ -4939,7 +5841,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 8,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-9",
@@ -4950,7 +5854,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 9,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "4e6b86841eee9727-10",
@@ -4961,7 +5867,9 @@
       "sourceSize": "60GAL",
       "containerNumber": 10,
       "sourceRow": 55,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "985ce46b5a24b0fe-1",
@@ -4972,7 +5880,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 56,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "948338574fd7ef86-1",
@@ -4983,7 +5895,11 @@
       "sourceSize": "90GAL",
       "containerNumber": 1,
       "sourceRow": 56,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "926a0ad5423ab5c2-1",
@@ -4994,7 +5910,11 @@
       "sourceSize": "15YD",
       "containerNumber": 1,
       "sourceRow": 57,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "c981d73e7c74ae10-1",
@@ -5005,7 +5925,11 @@
       "sourceSize": "10YD",
       "containerNumber": 1,
       "sourceRow": 58,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "MON"
+      ]
     },
     {
       "sourceKey": "dce29e1df4f52bf6-1",
@@ -5016,7 +5940,13 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 59,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "e38024ab69c12cd9-1",
@@ -5027,7 +5957,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 59,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "e38024ab69c12cd9-2",
@@ -5038,7 +5972,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 2,
       "sourceRow": 59,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "6067ef5655bf9d9e-1",
@@ -5049,7 +5987,13 @@
       "sourceSize": "6YD",
       "containerNumber": 1,
       "sourceRow": 60,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "3c249cdb63801cf6-1",
@@ -5060,7 +6004,13 @@
       "sourceSize": "2YD",
       "containerNumber": 1,
       "sourceRow": 60,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "cba1e1d60c5563d6-1",
@@ -5071,7 +6021,11 @@
       "sourceSize": "30YD",
       "containerNumber": 1,
       "sourceRow": 61,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "23f84e1333a13c93-1",
@@ -5082,7 +6036,11 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 63,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "d47bdcd69d25c59c-1",
@@ -5093,7 +6051,11 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 63,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "WED"
+      ]
     },
     {
       "sourceKey": "a29732533d8e95aa-1",
@@ -5104,7 +6066,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 63,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "THU"
+      ]
     },
     {
       "sourceKey": "6ef7dbc50a88857c-1",
@@ -5115,7 +6081,9 @@
       "sourceSize": "40YD",
       "containerNumber": 1,
       "sourceRow": 64,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "737c51de968ec7ba-1",
@@ -5126,7 +6094,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 68,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "737c51de968ec7ba-2",
@@ -5137,7 +6112,14 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 68,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "63a5e5238718409a-1",
@@ -5148,7 +6130,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 68,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "17c768a6047ead1f-1",
@@ -5159,7 +6147,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 68,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "17c768a6047ead1f-2",
@@ -5170,7 +6162,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 2,
       "sourceRow": 68,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "50a78bd1ab7c721f-1",
@@ -5181,7 +6177,14 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 69,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "50a78bd1ab7c721f-2",
@@ -5192,7 +6195,14 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 69,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "50a78bd1ab7c721f-3",
@@ -5203,7 +6213,14 @@
       "sourceSize": "3YD",
       "containerNumber": 3,
       "sourceRow": 69,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "bd5c9d3787f0445e-1",
@@ -5214,7 +6231,13 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 69,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "bd5c9d3787f0445e-2",
@@ -5225,7 +6248,13 @@
       "sourceSize": "3YD",
       "containerNumber": 2,
       "sourceRow": 69,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "94e5a4abe9b35b94-1",
@@ -5236,7 +6265,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 70,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "47a04ae3af854654-1",
@@ -5247,7 +6283,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 70,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "TUE",
+        "THU"
+      ]
     },
     {
       "sourceKey": "df47678ce4545993-1",
@@ -5258,7 +6299,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 70,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "67b9bc1bc0771da6-1",
@@ -5269,7 +6314,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 71,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "e681a0a5897d06fc-1",
@@ -5280,7 +6332,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 71,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "MON",
+        "WED"
+      ]
     },
     {
       "sourceKey": "f8be40e8d0124edd-1",
@@ -5291,7 +6348,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 71,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "e93acb05625b2dbc-1",
@@ -5302,7 +6363,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 72,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "cd9f930a0bb0f2f5-1",
@@ -5313,7 +6381,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 72,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "MON",
+        "WED"
+      ]
     },
     {
       "sourceKey": "43c4ebb1ad85ba94-1",
@@ -5324,7 +6397,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 72,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "6f4b1534a155fecd-1",
@@ -5335,7 +6412,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "6f4b1534a155fecd-2",
@@ -5346,7 +6430,14 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "6f4b1534a155fecd-3",
@@ -5357,7 +6448,14 @@
       "sourceSize": "4YD",
       "containerNumber": 3,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "6f4b1534a155fecd-4",
@@ -5368,7 +6466,14 @@
       "sourceSize": "4YD",
       "containerNumber": 4,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "6f4b1534a155fecd-5",
@@ -5379,7 +6484,14 @@
       "sourceSize": "4YD",
       "containerNumber": 5,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "ae500a8c697fb1b1-1",
@@ -5390,7 +6502,13 @@
       "sourceSize": "3YD",
       "containerNumber": 1,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "a4c452b1d723d061-1",
@@ -5401,7 +6519,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "a4c452b1d723d061-2",
@@ -5412,7 +6534,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 2,
       "sourceRow": 73,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "a54bdbe8e1802c40-1",
@@ -5423,7 +6549,9 @@
       "sourceSize": "20YD",
       "containerNumber": 1,
       "sourceRow": 74,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": null,
+      "serviceDays": []
     },
     {
       "sourceKey": "38b28daaf79532dd-1",
@@ -5434,7 +6562,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 75,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "38b28daaf79532dd-2",
@@ -5445,7 +6580,14 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 75,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "6d6be9a322a2a339-1",
@@ -5456,7 +6598,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 75,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "6d6be9a322a2a339-2",
@@ -5467,7 +6615,13 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 75,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "9eea06b7db117503-1",
@@ -5478,7 +6632,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 76,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "9eea06b7db117503-2",
@@ -5489,7 +6650,14 @@
       "sourceSize": "4YD",
       "containerNumber": 2,
       "sourceRow": 76,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "9eea06b7db117503-3",
@@ -5500,7 +6668,14 @@
       "sourceSize": "4YD",
       "containerNumber": 3,
       "sourceRow": 76,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "5342a38f31a39a48-1",
@@ -5511,7 +6686,13 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 76,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 3,
+      "serviceDays": [
+        "MON",
+        "WED",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "ee056a4ae7eff065-1",
@@ -5522,7 +6703,11 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 76,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     },
     {
       "sourceKey": "61345b260461539b-1",
@@ -5533,7 +6718,14 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 77,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 4,
+      "serviceDays": [
+        "MON",
+        "TUE",
+        "THU",
+        "FRI"
+      ]
     },
     {
       "sourceKey": "5d31fa6be00d47b3-1",
@@ -5544,7 +6736,12 @@
       "sourceSize": "4YD",
       "containerNumber": 1,
       "sourceRow": 77,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 2,
+      "serviceDays": [
+        "MON",
+        "WED"
+      ]
     },
     {
       "sourceKey": "4c196e2ae3562cbf-1",
@@ -5555,7 +6752,11 @@
       "sourceSize": "64GAL",
       "containerNumber": 1,
       "sourceRow": 77,
-      "qrStatus": "ready"
+      "qrStatus": "ready",
+      "weeklyFrequency": 1,
+      "serviceDays": [
+        "TUE"
+      ]
     }
   ]
 }

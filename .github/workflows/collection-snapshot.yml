@@ -17,10 +17,14 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - name: Check snapshot validator
         run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: Check service overview calculations
         run: node scripts/test_overview.js
+      - name: Check per-bin calendar and pickup review logic
+        run: node scripts/test_operations.js
       - name: Validate public snapshot
         if: github.event_name == 'repository_dispatch'
         run: python3 scripts/import_snapshot.py
@@ -33,12 +37,14 @@ jobs:
           git add data/records.json
           git commit -m "Update sanitized collection snapshot"
           git push
+      - name: Build public publication status
+        run: python3 scripts/build_dashboard_status.py
       # GITHUB_TOKEN commits do not trigger a separate Pages build; deploy explicitly.
       - name: Prepare public website files
         run: |
           mkdir -p _site/data
-          cp index.html overview.html styles.css app.js overview.js overview-metrics.js _site/
-          cp data/records.json data/service-overview.json _site/data/
+          cp index.html overview.html styles.css dashboard.css app.js overview.js overview-metrics.js operations-metrics.js _site/
+          cp data/records.json data/service-overview.json data/operations-config.json data/dashboard-status.json _site/data/
           cp -r generated _site/
           unzip -o generated/qr-labels.zip -d _site/generated
       - name: Upload static website

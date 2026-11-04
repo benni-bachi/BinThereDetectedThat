@@ -4,22 +4,67 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#154734">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23154734'/%3E%3Ctext x='8' y='24' fill='white' font-family='sans-serif' font-size='25'%3EB%3C/text%3E%3C/svg%3E">
   <title>Bin There, Detected That | Campus waste operations</title>
-  <link rel="stylesheet" href="styles.css?v=20261020">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="dashboard.css?v=20261103-2">
+  <script src="overview-metrics.js?v=20261103" defer></script>
+  <script src="operations-metrics.js?v=20261103" defer></script>
+  <script src="app.js?v=20261103" defer></script>
 </head>
 <body>
-  <header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><div><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></div></div><span class="header-label">CAMPUS WASTE OPERATIONS</span></header>
-  <main>
-    <nav class="page-nav" aria-label="Dashboard pages"><a href="overview.html">Overview</a><a href="index.html" aria-current="page">Collection activity</a></nav>
-    <section class="intro"><div><p class="eyebrow">OPERATIONS OVERVIEW</p><h1>A cleaner campus.<br><span>A clearer picture.</span></h1><p class="subtitle">Collection activity and service conditions across campus.</p></div><a class="primary-button" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=AZC0tj-L-kOZoXBujH41mMDhpnz29-JJttbJSNrVO5FUNzFLQU5YS1lFNDdZSktERjdGS1ZQV09TVC4u" target="_blank" rel="noopener noreferrer">＋ New Collection <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></section>
-    <section class="filters" aria-label="Filter collections"><div><label for="date-from">From date</label><input type="date" id="date-from"></div><div><label for="date-to">To date</label><input type="date" id="date-to"></div><div><label for="building">Building / location</label><select id="building"><option value="">All locations</option></select></div><div><label for="stream">Waste stream</label><select id="stream"><option value="">All streams</option></select></div><div><label for="bin">Bin</label><select id="bin"><option value="">All bins</option></select></div><button id="reset" class="reset-button" type="button">Reset filters</button></section>
-    <div class="section-caption"><h2>Collection snapshot</h2><p id="result-count" role="status" aria-live="polite">Loading records…</p></div>
-    <div id="error" class="error" role="alert" hidden></div>
-    <section id="metrics" class="metrics" aria-label="Collection metrics"></section>
-    <section class="charts" aria-label="Collection breakdowns"><article class="panel"><div class="panel-heading"><h2>Collections by waste stream</h2><span>RECORDS</span></div><div id="stream-chart" class="bar-chart"></div></article><article class="panel"><div class="panel-heading"><h2>Collections by building</h2><span>RECORDS</span></div><div id="building-chart" class="bar-chart"></div></article><article class="panel fullness-panel"><div class="panel-heading"><div><h2>Fullness distribution</h2><p>Reported capacity before collection</p></div><span>RECORDS</span></div><div id="fullness-chart" class="distribution"></div></article></section>
-    <section class="panel activity"><div class="panel-heading"><div><h2>Recent collection activity</h2><p>Newest first · Select a record to view collection details</p></div><span id="activity-count"></span></div><div class="table-scroll"><table><caption class="sr-only">Filtered collection activity</caption><thead><tr><th scope="col">Date / time</th><th scope="col">Bin / location</th><th scope="col">Waste stream</th><th scope="col">Fullness</th><th scope="col">Service / conditions</th><th scope="col">Details</th></tr></thead><tbody id="activity-body"></tbody></table></div></section>
-    <footer><span>Bin There, Detected That <span class="footer-divider">/</span> Sacramento State</span><span>CSC 131 · Class demonstration</span></footer>
-  </main>
+  <a class="skip-link" href="#workspace">Skip to dashboard</a>
+  <header class="masthead"><a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><span><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></span></a><span class="header-label">CAMPUS WASTE OPERATIONS</span></header>
+  <div class="dashboard-layout">
+    <aside class="sidebar"><p class="sidebar-caption">WORKSPACE</p><nav class="workspace-nav" aria-label="Dashboard sections">
+      <a href="#overview" data-view="overview" aria-current="page"><span aria-hidden="true">01</span>Overview</a>
+      <a href="#calendar" data-view="calendar"><span aria-hidden="true">02</span>Calendar</a>
+      <a href="#missed" data-view="missed"><span aria-hidden="true">03</span>Missed pickups</a>
+      <a href="#fullness" data-view="fullness"><span aria-hidden="true">04</span>Fullness insights</a>
+      <a href="#explorer" data-view="explorer"><span aria-hidden="true">05</span>Data explorer</a>
+      <a href="#bins" data-view="bins"><span aria-hidden="true">06</span>Bin QR directory</a>
+    </nav><div class="sidebar-note"><strong>Campus service</strong><span>Landfill, recycling, and organics in one workspace.</span></div></aside>
+    <main id="workspace" tabindex="-1">
+      <section class="workspace-heading"><div><p class="eyebrow">OPERATIONS DASHBOARD</p><h1 id="view-title">Campus operations</h1><p class="subtitle" id="view-description">Pickup demand, service history, and collection conditions.</p></div><div class="actions"><button id="refresh-data" class="secondary-button" type="button">Refresh data</button><a class="primary-button" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=AZC0tj-L-kOZoXBujH41mMDhpnz29-JJttbJSNrVO5FUNzFLQU5YS1lFNDdZSktERjdGS1ZQV09TVC4u" target="_blank" rel="noopener noreferrer">＋ New Collection <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></div></section>
+      <div class="data-status"><span id="refresh-status" role="status" aria-live="polite">Loading dashboard…</span><details><summary>Update details</summary><dl><dt>Validated collection export</dt><dd id="export-checked-at">—</dd><dt>Published snapshot</dt><dd id="published-at">—</dd><dt>Collection data changed</dt><dd id="records-updated-at">—</dd><dt>Checked in this browser</dt><dd id="checked-at">—</dd></dl><p>Refresh loads the latest published data. Collection exports run every 15 minutes, followed by publication.</p></details></div>
+      <div class="error" id="load-error" role="alert" hidden></div>
+      <section class="filters" aria-label="Filter dashboard">
+        <div><label for="filter-location">Building / location</label><select id="filter-location"><option value="">All locations</option></select></div>
+        <div><label for="filter-stream">Waste stream</label><select id="filter-stream"><option value="">All streams</option><option>Landfill</option><option>Recycling</option><option>Organics</option></select></div>
+        <div><label for="filter-bin">Bin</label><select id="filter-bin"><option value="">All bins</option></select></div>
+        <div class="report-date"><label for="date-from">From date</label><input id="date-from" type="date"></div>
+        <div class="report-date"><label for="date-to">To date</label><input id="date-to" type="date"></div>
+        <button class="text-button" id="reset-filters" type="button">Reset filters</button>
+      </section><p class="range-error" id="range-error" role="alert" hidden>Choose an end date on or after the start date.</p>
+
+      <section class="dashboard-view" id="view-overview" aria-label="Operations overview">
+        <div class="section-heading"><h2>Service snapshot</h2><span id="overview-count"></span></div><div class="metrics" id="overview-metrics"></div>
+        <div class="section-heading analysis-heading"><h2>Pickup analysis</h2><div><label class="sr-only" for="analysis-source">Pickup analysis source</label><select id="analysis-source"><option value="planned">Planned weekly service</option><option value="recorded">Recorded completed pickups</option></select></div></div>
+        <div class="chart-grid"><article class="panel wide"><div class="panel-heading"><h2 id="trend-title">Weekly service pattern</h2><p id="trend-subtitle"></p></div><div class="trend" id="overview-trend"></div></article><article class="panel"><div class="panel-heading"><h2>Pickups by waste stream</h2><p id="stream-unit"></p></div><div id="stream-chart"></div></article><article class="panel"><div class="panel-heading"><h2>Pickups by location</h2><p id="location-unit">Top 15 locations</p></div><div id="location-chart"></div></article></div>
+      </section>
+      <section class="dashboard-view" id="view-calendar" aria-label="Service calendar" hidden>
+        <div class="calendar-toolbar"><div class="button-group"><button id="previous-week" class="secondary-button" type="button" aria-label="Previous week">←</button><button id="calendar-today" class="secondary-button" type="button">This week</button><button id="next-week" class="secondary-button" type="button" aria-label="Next week">→</button></div><h2 id="week-label"></h2><div><label for="calendar-date">Go to date</label><input id="calendar-date" type="date"></div></div>
+        <p class="section-note">Each scheduled row represents one BinID. Bins at the same location keep their own service days.</p><div class="calendar-week" id="calendar-week" aria-label="Choose a service day"></div>
+        <div class="legend"><span><i class="status-dot scheduled"></i>Scheduled</span><span><i class="status-dot completed"></i>Completed</span><span><i class="status-dot exception"></i>Reported exception</span><span><i class="status-dot possible-missed"></i>Possible missed</span><span><i class="status-dot grace"></i>Within grace</span></div>
+        <article class="panel"><div class="panel-heading inline"><div><h2 id="calendar-day-title">Scheduled pickups</h2><p id="calendar-day-count"></p></div><button class="text-button" id="calendar-export" type="button">Download day CSV</button></div><div class="table-scroll"><table><caption class="sr-only">Scheduled bins for the selected day</caption><thead><tr><th scope="col">Bin</th><th scope="col">Location</th><th scope="col">Waste stream</th><th scope="col">Service days</th><th scope="col">Status</th></tr></thead><tbody id="calendar-body"></tbody></table></div><div id="calendar-pager" class="pagination"></div></article>
+      </section>
+      <section class="dashboard-view" id="view-missed" aria-label="Missed pickup review" hidden>
+        <p class="section-note" id="monitoring-policy"></p><div id="missed-metrics" class="metrics"></div>
+        <article class="panel"><div class="panel-heading inline"><div><h2>Pickup review queue</h2><p>A possible miss means no matching report has arrived after the grace period. Review before confirming a missed service.</p></div><div><label class="sr-only" for="attention-filter">Review type</label><select id="attention-filter"><option value="all">All attention items</option><option value="possible-missed">Possible missed</option><option value="exception">Reported exceptions</option></select></div></div><div class="table-scroll"><table><caption class="sr-only">Possible missed pickups and reported exceptions</caption><thead><tr><th scope="col">Service date</th><th scope="col">Bin / location</th><th scope="col">Waste stream</th><th scope="col">Review status</th><th scope="col">Details</th></tr></thead><tbody id="missed-body"></tbody></table></div><div class="pagination" id="missed-pager"></div></article>
+      </section>
+      <section class="dashboard-view" id="view-fullness" aria-label="Fullness insights" hidden>
+        <div id="fullness-metrics" class="metrics"></div><div class="chart-grid"><article class="panel wide"><div class="panel-heading"><h2>Fullness by reporting date</h2><p>Daily averages on days with reports. Values describe fullness when reported.</p></div><div class="trend" id="fullness-trend"></div></article><article class="panel"><div class="panel-heading"><h2>Fullness distribution</h2><p>All reported measurements in this selection</p></div><div id="fullness-distribution"></div></article><article class="panel"><div class="panel-heading"><h2>Reporting patterns</h2></div><div id="fullness-takeaways" class="insight-copy"></div></article></div>
+        <article class="panel"><div class="panel-heading"><h2>Latest reported fullness by bin</h2><p>Highest latest measurement first. Change compares the two most recent reports in this selection.</p></div><div class="table-scroll"><table><caption class="sr-only">Latest fullness measurements by bin</caption><thead><tr><th scope="col">Bin / location</th><th scope="col">Last report</th><th scope="col">Latest fullness</th><th scope="col">Average</th><th scope="col">Change</th><th scope="col">Reports</th></tr></thead><tbody id="fullness-body"></tbody></table></div><div class="pagination" id="fullness-pager"></div></article>
+      </section>
+      <section class="dashboard-view" id="view-explorer" aria-label="Collection data explorer" hidden>
+        <div id="explorer-metrics" class="metrics"></div><article class="panel"><div class="panel-heading inline"><div><h2>Collection activity</h2><p id="explorer-count"></p></div><button id="export-records" class="secondary-button" type="button">Download filtered CSV</button></div>
+          <div class="explorer-controls"><div class="search-control"><label for="record-search">Search records</label><input id="record-search" type="search" placeholder="Bin, location, stream, or response ID"></div><div><label for="service-filter">Service</label><select id="service-filter"><option value="all">All reports</option><option value="completed">Completed</option><option value="exception">Not serviced</option></select></div><div><label for="incident-filter">Incident</label><select id="incident-filter"><option value="all">All conditions</option><option value="contaminationObserved">Contamination</option><option value="overflowOutsideBin">Overflow</option><option value="damagedMaintenanceIssue">Maintenance / damage</option></select></div><div><label for="record-sort">Sort by</label><select id="record-sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="fullness-high">Fullness: high to low</option><option value="fullness-low">Fullness: low to high</option><option value="bin">Bin ID</option></select></div></div>
+          <div class="table-scroll"><table><caption class="sr-only">Filtered collection records</caption><thead><tr><th scope="col">Date / time</th><th scope="col">Bin / location</th><th scope="col">Waste stream</th><th scope="col">Fullness</th><th scope="col">Service / conditions</th><th scope="col">Details</th></tr></thead><tbody id="explorer-body"></tbody></table></div><div class="pagination" id="explorer-pager"></div>
+        </article>
+      </section>
+      <section class="dashboard-view" id="view-bins" aria-label="Bin QR directory" hidden>
+        <article class="panel"><div class="panel-heading inline"><div><h2>Unique bin QR labels</h2><p id="bin-count"></p></div><a class="secondary-button" href="generated/qr-labels.zip" download>Download QR pack</a></div><p class="section-note">Attach each numbered label to its matching physical container. The pack includes the original three pilot labels.</p><div class="table-scroll"><table><caption class="sr-only">Available workbook bin labels</caption><thead><tr><th scope="col">Bin</th><th scope="col">Location</th><th scope="col">Waste stream</th><th scope="col">Container</th><th scope="col">Service days</th><th scope="col">QR label</th></tr></thead><tbody id="bins-body"></tbody></table></div><div class="pagination" id="bins-pager"></div></article>
+      </section><footer><span>Bin There, Detected That / Sacramento State</span><span>CSC 131</span></footer>
+    </main>
+  </div>
 </body>
 </html>
