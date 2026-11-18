@@ -22,6 +22,12 @@ Check Power Automate run history for export failures and the repository's Action
 
 Run `python -m http.server 8000` from the repository root, then open http://localhost:8000. Run `git pull --ff-only` before local edits to receive automatically published records.
 
+## Sprint demo sign-in
+
+The website initially shows a Sacramento State-inspired sign-in screen. Use username **admin** and password **admin** (case-sensitive; surrounding username spaces are ignored). The dashboard starts after sign-in and keeps the requested section, including an existing `#calendar` or `#bins` link. Sign out is in the dashboard header and returns to the login screen, clearing the loaded page and assistant conversation. Refreshes retain the demo session in that tab through `sessionStorage`; passwords are never stored. If browser storage is unavailable, sign-in still works in memory until the page reloads.
+
+This is a presentation-only interface, not authentication or access protection. The GitHub Pages site, data files, source code, and QR labels remain public. The demo must not be used to protect private customer data. `demo-login.js` manages this UI flow without a backend or changes to Microsoft Forms or the List export. Run `node scripts/test_demo_login.js` to check credentials, session persistence, sign-out, and blocked-storage behavior.
+
 ## Service overview and QR labels
 
 Open `index.html` for the operations workspace. `overview.html` redirects to its Overview section, preserving the existing entry URL. Planned service uses the workbook's UPDATED sheet. Recorded pickups use completed Microsoft List reports. The workbook contains service levels, not dated pickup history; no historical collection events are invented. Weekly planned pickups equal quantity times a stated numeric weekly frequency. Missing or qualified frequencies remain unknown. Weekday charts include only schedules whose listed days match that frequency.

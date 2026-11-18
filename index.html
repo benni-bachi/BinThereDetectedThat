@@ -8,16 +8,33 @@
   <title>Bin There, Detected That | Campus waste operations</title>
   <link rel="stylesheet" href="dashboard.css?v=20261103-2">
   <link rel="stylesheet" href="assistant.css?v=20261117">
+  <link rel="stylesheet" href="login.css?v=20261117">
+  <script src="demo-login.js?v=20261117" defer></script>
   <script src="overview-metrics.js?v=20261103" defer></script>
   <script src="operations-metrics.js?v=20261103" defer></script>
   <script src="assistant-data.js?v=20261117" defer></script>
   <script src="dashboard-assistant.js?v=20261117" defer></script>
   <script src="assistant-ui.js?v=20261117" defer></script>
-  <script src="app.js?v=20261117" defer></script>
+  <script src="app.js?v=20261117-login" defer></script>
 </head>
 <body>
+  <main id="login-screen" class="demo-login-screen">
+    <section class="login-card" aria-labelledby="login-title">
+      <div class="login-brand"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><div><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></div></div>
+      <h1 id="login-title">Welcome back.</h1><p class="login-description">Sign in to view campus collections,<br>service schedules, and operational insights.</p>
+      <form id="login-form" class="login-form" method="post">
+        <div class="login-field"><label for="login-username">Username</label><input id="login-username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="80" aria-describedby="login-error" required></div>
+        <div class="login-field"><label for="login-password">Password</label><input id="login-password" type="password" autocomplete="current-password" maxlength="80" aria-describedby="login-error" required></div>
+        <p id="login-error" class="login-error" role="alert" hidden>That username or password is incorrect. Please try again.</p>
+        <button id="login-submit" class="primary-button login-submit" type="submit" disabled>Sign in <span aria-hidden="true">→</span></button>
+      </form>
+      <noscript><p class="login-error">Enable JavaScript to use this dashboard demo.</p></noscript>
+      <div class="login-footer"><span>Campus waste operations</span><span class="login-demo-label">SPRINT DEMO</span></div>
+    </section>
+  </main>
+  <div id="dashboard-session" hidden>
   <a class="skip-link" href="#workspace">Skip to dashboard</a>
-  <header class="masthead"><a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><span><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></span></a><span class="header-label">CAMPUS WASTE OPERATIONS</span></header>
+  <header class="masthead"><a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">B<span>↗</span></span><span><span class="eyebrow">SACRAMENTO STATE · CSC 131</span><span class="brand-name">Bin There, Detected That</span></span></a><div class="header-account"><span class="header-label">CAMPUS WASTE OPERATIONS</span><button id="demo-sign-out" class="demo-sign-out" type="button">Sign out</button></div></header>
   <div class="dashboard-layout">
     <aside class="sidebar"><p class="sidebar-caption">WORKSPACE</p><nav class="workspace-nav" aria-label="Dashboard sections">
       <a href="#overview" data-view="overview" aria-current="page"><span aria-hidden="true">01</span>Overview</a>
@@ -80,5 +97,6 @@
       <form id="assistant-form" class="assistant-form"><label for="assistant-question">Ask a dashboard question</label><div class="assistant-composer"><input id="assistant-question" type="text" maxlength="500" autocomplete="off" placeholder="e.g. When is BIN-004 scheduled?" required><button id="assistant-send" type="submit" class="primary-button">Send</button></div><div class="assistant-form-note"><span>Uses your filters. A bin, location, or date in your question can refine the answer.</span><span id="assistant-count">0 / 500</span></div><p id="assistant-limit" role="status"></p></form>
     </div>
   </dialog>
+  </div>
 </body>
 </html>

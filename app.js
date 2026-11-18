@@ -1,5 +1,9 @@
 'use strict';
-(() => {
+(function startDashboard() {
+  if (!DemoAccess.isSignedIn()) {
+    window.addEventListener('demo-signed-in', startDashboard, {once:true});
+    return;
+  }
   const $ = id => document.getElementById(id);
   const safe = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const number = n => n.toLocaleString('en-US', {maximumFractionDigits: 1});
