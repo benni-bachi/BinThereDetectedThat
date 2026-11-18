@@ -7,9 +7,13 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23154734'/%3E%3Ctext x='8' y='24' fill='white' font-family='sans-serif' font-size='25'%3EB%3C/text%3E%3C/svg%3E">
   <title>Bin There, Detected That | Campus waste operations</title>
   <link rel="stylesheet" href="dashboard.css?v=20261103-2">
+  <link rel="stylesheet" href="assistant.css?v=20261117">
   <script src="overview-metrics.js?v=20261103" defer></script>
   <script src="operations-metrics.js?v=20261103" defer></script>
-  <script src="app.js?v=20261103" defer></script>
+  <script src="assistant-data.js?v=20261117" defer></script>
+  <script src="dashboard-assistant.js?v=20261117" defer></script>
+  <script src="assistant-ui.js?v=20261117" defer></script>
+  <script src="app.js?v=20261117" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#workspace">Skip to dashboard</a>
@@ -66,5 +70,15 @@
       </section><footer><span>Bin There, Detected That / Sacramento State</span><span>CSC 131</span></footer>
     </main>
   </div>
+  <button id="assistant-open" class="assistant-launcher" type="button" aria-haspopup="dialog" aria-controls="assistant-dialog"><span aria-hidden="true">✦</span> Ask dashboard</button>
+  <dialog id="assistant-dialog" class="assistant-dialog" aria-labelledby="assistant-title" aria-describedby="assistant-description">
+    <div class="assistant-shell">
+      <header class="assistant-heading"><div><p class="eyebrow">DASHBOARD ASSISTANT</p><h2 id="assistant-title">Ask campus operations</h2></div><button id="assistant-close" class="assistant-icon-button" type="button" aria-label="Close dashboard assistant">×</button></header>
+      <div class="assistant-intro"><p id="assistant-description">Calculated insights from published dashboard data.</p><p id="assistant-scope" class="assistant-scope"></p><button id="assistant-clear" class="text-button" type="button">New conversation</button></div>
+      <div id="assistant-messages" class="assistant-messages" role="log" aria-label="Dashboard assistant conversation" aria-live="polite" aria-relevant="additions"></div>
+      <div class="assistant-suggestions" aria-label="Suggested questions"><button type="button" data-question="What needs attention in this selection?">What needs attention?</button><button type="button" data-question="Which bins are nearly full?">Nearly full bins</button><button type="button" data-question="What is scheduled tomorrow?">Tomorrow’s pickups</button><button type="button" data-question="Which locations have the most completed pickups?">Top pickup locations</button></div>
+      <form id="assistant-form" class="assistant-form"><label for="assistant-question">Ask a dashboard question</label><div class="assistant-composer"><input id="assistant-question" type="text" maxlength="500" autocomplete="off" placeholder="e.g. When is BIN-004 scheduled?" required><button id="assistant-send" type="submit" class="primary-button">Send</button></div><div class="assistant-form-note"><span>Uses your filters. A bin, location, or date in your question can refine the answer.</span><span id="assistant-count">0 / 500</span></div><p id="assistant-limit" role="status"></p></form>
+    </div>
+  </dialog>
 </body>
 </html>

@@ -25,6 +25,8 @@ jobs:
         run: node scripts/test_overview.js
       - name: Check per-bin calendar and pickup review logic
         run: node scripts/test_operations.js
+      - name: Check dashboard assistant answers
+        run: node scripts/test_assistant.js
       - name: Validate public snapshot
         if: github.event_name == 'repository_dispatch'
         run: python3 scripts/import_snapshot.py
@@ -44,6 +46,7 @@ jobs:
         run: |
           mkdir -p _site/data
           cp index.html overview.html styles.css dashboard.css app.js overview.js overview-metrics.js operations-metrics.js _site/
+          cp assistant.css assistant-data.js dashboard-assistant.js assistant-ui.js _site/
           cp data/records.json data/service-overview.json data/operations-config.json data/dashboard-status.json _site/data/
           cp -r generated _site/
           unzip -o generated/qr-labels.zip -d _site/generated

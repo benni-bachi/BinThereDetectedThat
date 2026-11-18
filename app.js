@@ -17,6 +17,11 @@
   const state = {view: 'overview', records: [], bins: [], service: null, config: null, status: null,
     loaded: false, loading: false, selectedDay: '', week: '', pages: {}, calendarRows: [], explorerRows: []};
   const pageSize = 25;
+  const chat = DashboardChat.mount({
+    getData: () => state.loaded ? {records:state.records,bins:state.bins,config:state.config,status:state.status} : null,
+    getSelection: () => ({location:$('filter-location').value,stream:$('filter-stream').value,bin:$('filter-bin').value,
+      from:$('date-from').value,to:$('date-to').value,exactLocation:true})
+  });
   function dateLabel(value, options = {}) {
     return new Intl.DateTimeFormat('en-US', {month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC', ...options})
       .format(new Date(`${value}T00:00:00Z`));
@@ -213,6 +218,7 @@
     const range = dateRange();
     $('range-error').hidden = range.valid || ['calendar','bins'].includes(state.view) || (state.view === 'overview' && $('analysis-source').value === 'planned');
     renderers[state.view]();
+    chat.update();
   }
   function switchView(focus = false) {
     const key = location.hash.slice(1), view = Object.hasOwn(views, key) ? key : 'overview';
